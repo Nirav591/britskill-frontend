@@ -1,0 +1,672 @@
+[
+  {
+    "slug": "gcse-maths",
+    "title": "GCSE Maths Masterclass (Foundation & Higher)",
+    "subtitle": "Exam-focused live tuition with clear weekly targets.",
+    "category": "GCSE",
+    "rating": 4.8,
+    "reviews": "12,480",
+    "students": "1,240",
+    "level": "Years 10–11",
+    "duration": "12 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£29.99",
+    "oldPrice": "£39.99",
+    "badge": "Bestseller",
+    "instructor": "Mrs. Priya Shah",
+    "instructorTitle": "Lead Maths Tutor, QTS",
+    "instructorBio": "Specialises in GCSE Maths delivery with 10+ years of classroom and online teaching experience.",
+    "whatYouLearn": [
+      "Build confidence across number, algebra, geometry, and statistics",
+      "Master exam techniques for Foundation and Higher tiers",
+      "Learn how to approach multi-step problem solving",
+      "Track progress with topic checks and mock assessments"
+    ],
+    "includes": [
+      "3 live lessons per week (60 minutes)",
+      "Small group classes (max 8 students)",
+      "Lesson recordings for revision",
+      "Weekly homework and tutor feedback",
+      "Parent progress updates"
+    ],
+    "requirements": [
+      "A device with internet access",
+      "Notebook or digital note-taking",
+      "Calculator (recommended)"
+    ],
+    "description": [
+      "This GCSE Maths Masterclass provides structured teaching aligned to UK exam specifications. Lessons focus on core skills, exam strategy, and building consistent progress.",
+      "Students follow a weekly plan of live sessions, guided practice, and feedback. Parents receive updates on attendance and topic progress."
+    ],
+    "courseContent": [
+      {
+        "title": "Foundations & Number Skills",
+        "lectures": 8,
+        "duration": "4h 10m"
+      },
+      {
+        "title": "Algebra & Graphs",
+        "lectures": 10,
+        "duration": "5h 20m"
+      },
+      {
+        "title": "Geometry & Measures",
+        "lectures": 9,
+        "duration": "4h 45m"
+      },
+      {
+        "title": "Statistics & Probability",
+        "lectures": 6,
+        "duration": "3h 15m"
+      }
+    ]
+  },
+  {
+    "slug": "alevel-chem",
+    "title": "A-Level Chemistry: Exam-Focused Live Tuition",
+    "subtitle": "Structured A-Level Chemistry coverage with weekly assessments.",
+    "category": "A-Level",
+    "rating": 4.7,
+    "reviews": "6,902",
+    "students": "820",
+    "level": "Years 12–13",
+    "duration": "14 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£24.99",
+    "oldPrice": "£34.99",
+    "badge": "Premium",
+    "instructor": "Dr. James Carter",
+    "instructorTitle": "Senior Chemistry Tutor, PhD",
+    "instructorBio": "Specialist in A-Level Chemistry with a focus on exam technique and practical skills.",
+    "whatYouLearn": [
+      "Master core A-Level Chemistry topics and calculations",
+      "Strengthen exam technique with timed practice",
+      "Understand required practicals and analysis",
+      "Build confidence across organic, inorganic, and physical chemistry"
+    ],
+    "includes": [
+      "Live weekly lessons",
+      "Topic-based assessments",
+      "Lesson recordings",
+      "Practice papers and mark schemes"
+    ],
+    "requirements": [
+      "Basic GCSE Chemistry knowledge",
+      "Scientific calculator",
+      "A-level specification booklet (optional)"
+    ],
+    "description": [
+      "This course is designed to guide A-Level students through the full Chemistry specification in a clear and consistent format.",
+      "Live lessons are supported with exam practice, feedback, and targeted revision tasks."
+    ],
+    "courseContent": [
+      {
+        "title": "Atomic Structure & Bonding",
+        "lectures": 7,
+        "duration": "3h 50m"
+      },
+      {
+        "title": "Energetics & Kinetics",
+        "lectures": 8,
+        "duration": "4h 15m"
+      },
+      {
+        "title": "Organic Chemistry Foundations",
+        "lectures": 9,
+        "duration": "5h 10m"
+      },
+      {
+        "title": "Equilibria & Acids",
+        "lectures": 6,
+        "duration": "3h 30m"
+      }
+    ]
+  },
+  {
+    "slug": "functional-english",
+    "title": "Functional Skills English (Level 1 & 2)",
+    "subtitle": "Practical English for workplace and study.",
+    "category": "Functional Skills",
+    "rating": 4.6,
+    "reviews": "2,890",
+    "students": "640",
+    "level": "Level 1 & 2",
+    "duration": "10 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£20.99",
+    "oldPrice": "£26.99",
+    "badge": "Flexible",
+    "instructor": "Mrs. Anna Brooks",
+    "instructorTitle": "Functional Skills Specialist",
+    "instructorBio": "Helps adult learners and apprentices build practical English skills for work and study.",
+    "whatYouLearn": [
+      "Improve reading comprehension and summarising",
+      "Strengthen writing for everyday and workplace tasks",
+      "Build speaking and listening confidence",
+      "Prepare for Level 1 or Level 2 assessment formats"
+    ],
+    "includes": [
+      "Live lessons with small groups",
+      "Functional Skills practice tasks",
+      "Mock tests and feedback",
+      "Recordings for catch-up"
+    ],
+    "requirements": [
+      "A device with internet access",
+      "Notebook or digital note-taking"
+    ],
+    "description": [
+      "Functional Skills English focuses on practical communication and exam preparation, with clear weekly targets.",
+      "Students receive feedback and guidance to prepare for Level 1 or Level 2 assessments."
+    ],
+    "courseContent": [
+      {
+        "title": "Reading for Meaning",
+        "lectures": 6,
+        "duration": "2h 50m"
+      },
+      {
+        "title": "Writing for Purpose",
+        "lectures": 7,
+        "duration": "3h 10m"
+      },
+      {
+        "title": "Speaking & Listening",
+        "lectures": 5,
+        "duration": "2h 20m"
+      }
+    ]
+  },
+  {
+    "slug": "gcse-eng",
+    "title": "GCSE English Language: Writing & Analysis",
+    "subtitle": "Build exam-ready reading and writing skills with live tutoring.",
+    "category": "GCSE",
+    "rating": 4.8,
+    "reviews": "18,211",
+    "students": "1,540",
+    "level": "Years 10–11",
+    "duration": "12 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£27.99",
+    "oldPrice": "£32.99",
+    "badge": "Top rated",
+    "instructor": "Ms. Angela Yu",
+    "instructorTitle": "GCSE English Tutor",
+    "instructorBio": "Supports students with analytical writing, reading comprehension, and exam technique.",
+    "whatYouLearn": [
+      "Develop strong analytical reading skills",
+      "Improve writing structure and clarity",
+      "Practise exam-style questions and timing",
+      "Build confidence with language techniques"
+    ],
+    "includes": [
+      "Live weekly lessons",
+      "Small group classes",
+      "Writing feedback and revision tasks",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "Notebook or digital note-taking",
+      "English dictionary (optional)"
+    ],
+    "description": [
+      "This course focuses on GCSE English Language skills, from analysis to clear, exam-ready writing.",
+      "Students receive guided practice and feedback aligned to UK exam boards."
+    ],
+    "courseContent": [
+      {
+        "title": "Reading Skills & Analysis",
+        "lectures": 7,
+        "duration": "3h 40m"
+      },
+      {
+        "title": "Writing for Purpose",
+        "lectures": 8,
+        "duration": "4h 10m"
+      },
+      {
+        "title": "Exam Technique & Timing",
+        "lectures": 5,
+        "duration": "2h 30m"
+      }
+    ]
+  },
+  {
+    "slug": "alevel-bio",
+    "title": "A-Level Biology: Live Lessons & Revision",
+    "subtitle": "Core biology concepts, assessments, and exam practice.",
+    "category": "A-Level",
+    "rating": 4.7,
+    "reviews": "9,734",
+    "students": "960",
+    "level": "Years 12–13",
+    "duration": "14 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£25.99",
+    "oldPrice": "£31.99",
+    "badge": "Bestseller",
+    "instructor": "Dr. Helen Morris",
+    "instructorTitle": "A-Level Biology Tutor",
+    "instructorBio": "Helps students connect biological concepts to exam questions and practical work.",
+    "whatYouLearn": [
+      "Build strong foundations in core biology topics",
+      "Practise exam questions and data analysis",
+      "Prepare for required practicals",
+      "Strengthen revision strategies"
+    ],
+    "includes": [
+      "Live weekly lessons",
+      "Revision packs and summaries",
+      "Practice papers and feedback",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "GCSE Biology knowledge",
+      "Scientific calculator"
+    ],
+    "description": [
+      "This A-Level Biology course provides structured teaching with regular checks for understanding.",
+      "Students receive targeted feedback to improve exam performance."
+    ],
+    "courseContent": [
+      {
+        "title": "Cells, Transport & Genetics",
+        "lectures": 8,
+        "duration": "4h 30m"
+      },
+      {
+        "title": "Ecology & Physiology",
+        "lectures": 7,
+        "duration": "4h 5m"
+      },
+      {
+        "title": "Practicals & Data Skills",
+        "lectures": 5,
+        "duration": "2h 40m"
+      }
+    ]
+  },
+  {
+    "slug": "functional-maths",
+    "title": "Functional Skills Maths (Level 1 & 2)",
+    "subtitle": "Practical maths for work, study, and everyday life.",
+    "category": "Functional Skills",
+    "rating": 4.6,
+    "reviews": "1,204",
+    "students": "520",
+    "level": "Level 1 & 2",
+    "duration": "10 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£19.99",
+    "oldPrice": "£24.99",
+    "badge": "Flexible",
+    "instructor": "Mr. David Clarke",
+    "instructorTitle": "Functional Skills Maths Tutor",
+    "instructorBio": "Focuses on practical maths skills and exam preparation for adult learners.",
+    "whatYouLearn": [
+      "Apply maths to real-world scenarios",
+      "Build confidence with number skills",
+      "Prepare for Level 1 and Level 2 assessments",
+      "Improve accuracy and problem solving"
+    ],
+    "includes": [
+      "Live weekly lessons",
+      "Practice worksheets",
+      "Mock assessments",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "Notebook or digital note-taking",
+      "Calculator (recommended)"
+    ],
+    "description": [
+      "Functional Skills Maths is designed for practical application and clear exam preparation.",
+      "Students are supported with targeted practice and feedback."
+    ],
+    "courseContent": [
+      {
+        "title": "Number & Measures",
+        "lectures": 6,
+        "duration": "2h 40m"
+      },
+      {
+        "title": "Data & Statistics",
+        "lectures": 5,
+        "duration": "2h 10m"
+      },
+      {
+        "title": "Problem Solving",
+        "lectures": 4,
+        "duration": "1h 50m"
+      }
+    ]
+  },
+  {
+    "slug": "esol-starter",
+    "title": "ESOL Starter: Entry 1–3",
+    "subtitle": "Build core English skills for education and work.",
+    "category": "ESOL",
+    "rating": 4.7,
+    "reviews": "1,840",
+    "students": "430",
+    "level": "Entry 1–3",
+    "duration": "8 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£18.99",
+    "oldPrice": "£22.99",
+    "badge": "Live",
+    "instructor": "Ms. Amina Khan",
+    "instructorTitle": "ESOL Tutor",
+    "instructorBio": "Supports learners with practical English skills and confidence building.",
+    "whatYouLearn": [
+      "Improve speaking and listening confidence",
+      "Build essential reading and writing skills",
+      "Follow structured ESOL pathways",
+      "Prepare for entry-level assessments"
+    ],
+    "includes": [
+      "Live online lessons",
+      "Practice activities",
+      "Lesson recordings",
+      "Tutor feedback"
+    ],
+    "requirements": [
+      "A device with internet access",
+      "Notebook or digital note-taking"
+    ],
+    "description": [
+      "ESOL Starter courses focus on foundational English skills with steady weekly progress.",
+      "Learners receive feedback and personalised guidance."
+    ],
+    "courseContent": [
+      {
+        "title": "Everyday English",
+        "lectures": 5,
+        "duration": "2h 10m"
+      },
+      {
+        "title": "Reading & Writing Basics",
+        "lectures": 5,
+        "duration": "2h 20m"
+      },
+      {
+        "title": "Speaking & Listening Practice",
+        "lectures": 4,
+        "duration": "1h 50m"
+      }
+    ]
+  },
+  {
+    "slug": "alevel-maths",
+    "title": "A-Level Maths: Pure + Mechanics",
+    "subtitle": "Core A-Level Maths coverage with structured revision.",
+    "category": "A-Level",
+    "rating": 4.6,
+    "reviews": "2,104",
+    "students": "610",
+    "level": "Years 12–13",
+    "duration": "14 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£26.99",
+    "oldPrice": "£34.99",
+    "badge": "Exam prep",
+    "instructor": "Mr. Oliver Grant",
+    "instructorTitle": "A-Level Maths Tutor",
+    "instructorBio": "Specialises in Pure and Mechanics with exam-focused practice.",
+    "whatYouLearn": [
+      "Master algebra, calculus, and mechanics",
+      "Apply exam techniques to timed questions",
+      "Improve problem solving accuracy",
+      "Prepare for A-Level exam papers"
+    ],
+    "includes": [
+      "Live lessons",
+      "Practice questions",
+      "Mock papers and feedback",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "GCSE Maths knowledge",
+      "Scientific calculator"
+    ],
+    "description": [
+      "A-Level Maths tuition covering core Pure and Mechanics topics aligned to UK exam boards.",
+      "Students receive targeted guidance and structured revision."
+    ],
+    "courseContent": [
+      {
+        "title": "Pure Maths Foundations",
+        "lectures": 8,
+        "duration": "4h 40m"
+      },
+      {
+        "title": "Mechanics Essentials",
+        "lectures": 6,
+        "duration": "3h 10m"
+      },
+      {
+        "title": "Exam Technique",
+        "lectures": 4,
+        "duration": "2h 0m"
+      }
+    ]
+  },
+  {
+    "slug": "gcse-science",
+    "title": "GCSE Science: Biology, Chemistry, Physics",
+    "subtitle": "Combined and separate sciences with exam practice.",
+    "category": "GCSE",
+    "rating": 4.7,
+    "reviews": "3,028",
+    "students": "710",
+    "level": "Years 10–11",
+    "duration": "12 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£28.99",
+    "oldPrice": "£36.99",
+    "badge": "Bundle",
+    "instructor": "Dr. Meera Joshi",
+    "instructorTitle": "GCSE Science Tutor",
+    "instructorBio": "Supports students across Biology, Chemistry, and Physics.",
+    "whatYouLearn": [
+      "Strengthen knowledge across all science topics",
+      "Apply exam technique for each paper",
+      "Complete regular quizzes and practice tasks",
+      "Track progress with topic checks"
+    ],
+    "includes": [
+      "Live lessons",
+      "Practice questions",
+      "Lesson recordings",
+      "Progress updates"
+    ],
+    "requirements": [
+      "Notebook or digital note-taking",
+      "Scientific calculator"
+    ],
+    "description": [
+      "GCSE Science tuition covering combined science and separate sciences.",
+      "Students receive clear guidance and exam-ready practice."
+    ],
+    "courseContent": [
+      {
+        "title": "Biology Core",
+        "lectures": 6,
+        "duration": "3h 0m"
+      },
+      {
+        "title": "Chemistry Core",
+        "lectures": 6,
+        "duration": "3h 10m"
+      },
+      {
+        "title": "Physics Core",
+        "lectures": 6,
+        "duration": "3h 5m"
+      }
+    ]
+  },
+  {
+    "slug": "gcse-intensive",
+    "title": "GCSE Intensive Revision Track",
+    "subtitle": "Fast-paced revision for exam confidence.",
+    "category": "GCSE",
+    "rating": 4.8,
+    "reviews": "7,402",
+    "students": "980",
+    "level": "Years 10–11",
+    "duration": "8 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£31.99",
+    "oldPrice": "£41.99",
+    "badge": "Trending",
+    "instructor": "Mr. Liam O’Connor",
+    "instructorTitle": "GCSE Tutor",
+    "instructorBio": "Focuses on targeted revision and exam technique.",
+    "whatYouLearn": [
+      "Rapid revision of key topics",
+      "Timed practice and feedback",
+      "Boost confidence ahead of exams",
+      "Clear plan for final weeks"
+    ],
+    "includes": [
+      "Live revision sessions",
+      "Practice papers",
+      "Exam tips and feedback",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "Basic GCSE knowledge",
+      "Notebook or digital note-taking"
+    ],
+    "description": [
+      "An intensive revision track to prepare students for exam season.",
+      "Sessions focus on exam technique and timed practice."
+    ],
+    "courseContent": [
+      {
+        "title": "Key Topics Review",
+        "lectures": 6,
+        "duration": "3h 0m"
+      },
+      {
+        "title": "Timed Practice",
+        "lectures": 4,
+        "duration": "2h 0m"
+      }
+    ]
+  },
+  {
+    "slug": "esol-advanced",
+    "title": "ESOL Advanced: Level 1 & 2",
+    "subtitle": "Advanced language skills for study and work.",
+    "category": "ESOL",
+    "rating": 4.7,
+    "reviews": "4,210",
+    "students": "520",
+    "level": "Level 1 & 2",
+    "duration": "10 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£21.99",
+    "oldPrice": "£27.99",
+    "badge": "Trending",
+    "instructor": "Ms. Sofia Mendes",
+    "instructorTitle": "ESOL Tutor",
+    "instructorBio": "Supports learners advancing to Level 1 and Level 2 outcomes.",
+    "whatYouLearn": [
+      "Develop confidence in speaking and writing",
+      "Improve exam performance at Level 1 & 2",
+      "Strengthen reading and listening skills",
+      "Prepare for ESOL assessments"
+    ],
+    "includes": [
+      "Live lessons",
+      "Practice tasks",
+      "Lesson recordings",
+      "Tutor feedback"
+    ],
+    "requirements": [
+      "Entry-level ESOL knowledge",
+      "Notebook or digital note-taking"
+    ],
+    "description": [
+      "ESOL Advanced supports learners preparing for higher-level assessments.",
+      "Lessons focus on fluency, accuracy, and exam preparation."
+    ],
+    "courseContent": [
+      {
+        "title": "Advanced Speaking & Listening",
+        "lectures": 5,
+        "duration": "2h 10m"
+      },
+      {
+        "title": "Advanced Reading & Writing",
+        "lectures": 5,
+        "duration": "2h 30m"
+      }
+    ]
+  },
+  {
+    "slug": "alevel-essay",
+    "title": "A-Level English: Essay & Analysis",
+    "subtitle": "Advanced essay writing and exam analysis.",
+    "category": "A-Level",
+    "rating": 4.7,
+    "reviews": "3,214",
+    "students": "530",
+    "level": "Years 12–13",
+    "duration": "12 weeks",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£23.99",
+    "oldPrice": "£29.99",
+    "badge": "Top rated",
+    "instructor": "Mr. Thomas Reed",
+    "instructorTitle": "A-Level English Tutor",
+    "instructorBio": "Guides students through advanced writing and analysis skills.",
+    "whatYouLearn": [
+      "Structure analytical essays confidently",
+      "Improve exam responses with evidence",
+      "Apply critical reading strategies",
+      "Refine writing under time constraints"
+    ],
+    "includes": [
+      "Live lessons",
+      "Essay feedback",
+      "Practice prompts",
+      "Lesson recordings"
+    ],
+    "requirements": [
+      "GCSE English knowledge",
+      "Notebook or digital note-taking"
+    ],
+    "description": [
+      "A-Level English tuition focused on essays and analysis aligned with exam criteria.",
+      "Students receive detailed feedback and revision guidance."
+    ],
+    "courseContent": [
+      {
+        "title": "Essay Structure & Argument",
+        "lectures": 6,
+        "duration": "3h 0m"
+      },
+      {
+        "title": "Textual Analysis",
+        "lectures": 5,
+        "duration": "2h 40m"
+      }
+    ]
+  }
+]
