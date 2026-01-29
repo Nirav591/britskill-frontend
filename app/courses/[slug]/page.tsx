@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import courses from "@/app/data/courses.json";
+import Link from "next/link";
 
 type Course = (typeof courses)[number];
 
@@ -40,19 +41,19 @@ export default async function CourseDetailsPage({ params }: PageProps) {
           <div className="grid gap-10 lg:grid-cols-[1.5fr_0.7fr] lg:items-start">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/70">
-                {course.category}
+                {course?.category}
               </p>
               <h1 className="mt-4 text-3xl font-semibold leading-tight md:text-4xl">
-                {course.title}
+                {course?.title}
               </h1>
               <p className="mt-4 text-sm text-white/80 md:text-base">
-                {course.subtitle}
+                {course?.subtitle}
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-white/80">
                 <div className="flex items-center gap-2">
                   <span className="text-lg font-semibold text-white">
-                    {course.rating.toFixed(1)}
+                    {course?.rating?.toFixed(1)}
                   </span>
                   <div className="flex items-center gap-1">
                     {stars.map((_, idx) => (
@@ -67,21 +68,23 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                       </svg>
                     ))}
                   </div>
-                  <span>({course.reviews})</span>
+                  <span>({course?.reviews})</span>
                 </div>
-                <span>{course.students}+ students</span>
-                <span>Updated {course.lastUpdated}</span>
+                <span>{course?.students}+ students</span>
+                <span>Updated {course?.lastUpdated}</span>
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3 text-xs font-semibold text-white/80">
                 <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">
-                  {course.level}
+                  {course?.level}
                 </span>
+                {"duration" in course && (course as { duration?: string }).duration ? (
+                  <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">
+                    {(course as { duration?: string }).duration}
+                  </span>
+                ) : null}
                 <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">
-                  {course.duration}
-                </span>
-                <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">
-                  {course.language}
+                  {course?.language}
                 </span>
               </div>
             </div>
@@ -97,19 +100,24 @@ export default async function CourseDetailsPage({ params }: PageProps) {
               <div className="mt-4">
                 <div className="flex items-center gap-2">
                   <span className="text-2xl font-semibold text-[var(--color-brand-primary)]">
-                    {course.price}
+                    {course?.price}
                   </span>
-                  {course.oldPrice && (
+                  {course?.oldPrice && (
                     <span className="text-sm text-[#8a94a4] line-through">
-                      {course.oldPrice}
+                      {course?.oldPrice}
                     </span>
                   )}
                 </div>
-                <button className="mt-4 w-full rounded-full bg-[var(--color-brand-primary)] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343]">
+                <a
+                  className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-brand-primary)] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
+                  href="https://britskill.teachworks.com/form/student-enrollment-form"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Enrol now
-                </button>
+                </a>
                 <p className="mt-3 text-center text-xs text-[#5b6773]">
-                  7-day free trial available for new students
+                  Flexible weekly subscription available
                 </p>
               </div>
             </div>
@@ -125,7 +133,7 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 What you’ll learn
               </h2>
               <div className="mt-4 grid gap-3 md:grid-cols-2">
-                {course.whatYouLearn.map((item) => (
+                {course?.whatYouLearn?.map((item) => (
                   <div
                     key={item}
                     className="flex items-start gap-3 rounded-2xl border border-[#e1e6eb] bg-white p-4 shadow-sm"
@@ -142,20 +150,27 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 Course content
               </h2>
               <div className="mt-4 space-y-3">
-                {course.courseContent.map((section) => (
+                {(course?.modules ?? []).map((section) => (
                   <details
                     key={section.title}
                     className="rounded-2xl border border-[#e1e6eb] bg-white shadow-sm"
                   >
                     <summary className="flex cursor-pointer items-center justify-between px-4 py-3 text-sm font-semibold text-[#1f2933]">
-                      <span>{section.title}</span>
-                      <span className="text-[#5b6773]">
-                        {section.lectures} lectures • {section.duration}
+                      <span>
+                        Module {section.module}: {section.title}
                       </span>
+                      <span className="text-[#5b6773]">{section.focus}</span>
                     </summary>
                     <div className="border-t border-[#e1e6eb] px-4 py-3 text-sm text-[#425161]">
-                      Lessons are delivered live with guided practice and
-                      revision tasks aligned to this section.
+                      <p>{section.focus}</p>
+                      <ul className="mt-3 space-y-2">
+                        {(section?.keySkills ?? []).map((skill) => (
+                          <li key={skill} className="flex items-start gap-2">
+                            <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                            <span>{skill}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </details>
                 ))}
@@ -167,7 +182,7 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 Requirements
               </h2>
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
-                {course.requirements.map((item) => (
+                {course?.entryRequirements?.prerequisites?.map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
                     <span>{item}</span>
@@ -181,7 +196,7 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 Description
               </h2>
               <div className="mt-4 space-y-3 text-sm text-[#425161]">
-                {course.description.map((paragraph) => (
+                {course?.overview.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
                 ))}
               </div>
@@ -191,10 +206,10 @@ export default async function CourseDetailsPage({ params }: PageProps) {
           <aside className="space-y-6">
             <div className="rounded-3xl border border-[#e1e6eb] bg-[var(--color-surface-muted)] p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-[var(--color-brand-primary)]">
-                This course includes
+                This course? includes
               </h3>
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
-                {course.includes.map((item) => (
+                {course?.includes?.map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
                     <span>{item}</span>
@@ -206,7 +221,7 @@ export default async function CourseDetailsPage({ params }: PageProps) {
             <div className="rounded-3xl border border-[#e1e6eb] bg-white p-6 shadow-sm">
               <div className="flex items-center gap-4">
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--color-brand-primary)]/10 text-sm font-semibold text-[var(--color-brand-primary)]">
-                  {course.instructor
+                  {course?.instructor?.name
                     .split(" ")
                     .map((word) => word[0])
                     .slice(0, 2)
@@ -214,15 +229,15 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-[#1f2933]">
-                    {course.instructor}
+                    {course?.instructor?.name}
                   </p>
                   <p className="text-xs text-[#5b6773]">
-                    {course.instructorTitle}
+                    {course?.instructor?.title}
                   </p>
                 </div>
               </div>
               <p className="mt-4 text-sm text-[#425161]">
-                {course.instructorBio}
+                {course?.instructor?.bio}
               </p>
             </div>
           </aside>

@@ -472,7 +472,7 @@ const ParentsTrustSection = () => {
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link
             className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/contact"
+            href="/get-in-touch"
           >
             Book a free trial
           </Link>

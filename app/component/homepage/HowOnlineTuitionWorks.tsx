@@ -182,7 +182,7 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
           </Link>
           <Link
             className="w-full rounded-full border border-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-[var(--color-brand-primary)] transition hover:bg-[var(--color-surface-muted)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/contact"
+            href="/get-in-touch"
           >
             Book a free trial
           </Link>

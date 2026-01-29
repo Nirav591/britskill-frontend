@@ -61,7 +61,7 @@ const GetStartedCTASection = () => {
                     className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                     href="tel:+44XXXXXXXXXX"
                   >
-                    +44 XXXX XXXXXX
+                    +44 07944 424467
                   </a>
                 </p>
                 <p>Live chat: Available Mon-Fri, 9am-5pm</p>

@@ -1,672 +1,2235 @@
 [
   {
-    "slug": "gcse-maths",
-    "title": "GCSE Maths Masterclass (Foundation & Higher)",
-    "subtitle": "Exam-focused live tuition with clear weekly targets.",
-    "category": "GCSE",
-    "rating": 4.8,
-    "reviews": "12,480",
-    "students": "1,240",
-    "level": "Years 10–11",
-    "duration": "12 weeks",
+    "id": "esol-english-b1",
+    "slug": "esol-english-b1",
+    "title": "ESOL English B1 (Intermediate)",
+    "subtitle": "Fluency, accuracy, and confidence for real-life English in the UK.",
+    "category": "ESOL",
+    "badge": "Popular",
+    "image": "/images/courses/b1.jpg",
+    "rating": 4.7,
+    "reviews": "8,960",
+    "students": "980",
+    "level": "CEFR B1 (Intermediate)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£29.99",
-    "oldPrice": "£39.99",
-    "badge": "Bestseller",
-    "instructor": "Mrs. Priya Shah",
-    "instructorTitle": "Lead Maths Tutor, QTS",
-    "instructorBio": "Specialises in GCSE Maths delivery with 10+ years of classroom and online teaching experience.",
+    "price": "£34.99",
+    "oldPrice": "£44.99",
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "B1",
+      "standards": [
+        "CEFR B1 descriptors",
+        "Trinity College London ESOL (SELT pathway) expectations",
+        "British Council English level framework"
+      ]
+    },
+    "instructor": {
+      "name": "ESOL Teaching Team",
+      "title": "Qualified ESOL Tutors",
+      "bio": "Experienced ESOL tutors delivering CEFR-aligned teaching with a strong focus on practical communication and UK integration."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "ESOL A2 (or equivalent)",
+      "entryRequirementText": "You should be comfortable communicating in everyday English and understanding simple conversations.",
+      "prerequisites": [
+        "Completion of ESOL A2 or equivalent level",
+        "Device with internet access",
+        "Notebook or digital note-taking"
+      ]
+    },
+    "whoItsFor": [
+      "Learners progressing from ESOL A2 who want to build on core skills",
+      "Adults with intermediate English seeking confidence and accuracy",
+      "Learners preparing for ESOL B1 or SELT-style assessments",
+      "People living, working, or studying in the UK",
+      "Learners aiming to progress to Functional Skills English Level 1 or ESOL B2"
+    ],
+    "overview": [
+      "This ESOL English B1 (Intermediate) course helps learners communicate confidently in real-world situations across daily life, work, and study in the UK.",
+      "The curriculum aligns with CEFR B1 descriptors and reflects the competencies expected in Trinity College London ESOL (SELT pathway) and the British Council level framework.",
+      "You’ll build independence in speaking, listening, reading, and writing—plus structured exam-style practice and feedback."
+    ],
     "whatYouLearn": [
-      "Build confidence across number, algebra, geometry, and statistics",
-      "Master exam techniques for Foundation and Higher tiers",
-      "Learn how to approach multi-step problem solving",
-      "Track progress with topic checks and mock assessments"
+      "Understand the main points of clear, standard English on familiar topics",
+      "Deal confidently with common situations in daily life, work, and public services",
+      "Speak clearly about experiences, events, plans, and ambitions",
+      "Express opinions and give reasons in discussions",
+      "Write well-structured texts such as emails, paragraphs, and short reports",
+      "Improve exam readiness through practice tasks and mock assessments"
     ],
     "includes": [
-      "3 live lessons per week (60 minutes)",
-      "Small group classes (max 8 students)",
+      "2–3 live classes per week",
       "Lesson recordings for revision",
-      "Weekly homework and tutor feedback",
-      "Parent progress updates"
+      "Speaking and writing feedback from tutors",
+      "Mock assessments and progress reviews",
+      "Real-life tasks across workplace, travel, healthcare, and public services"
     ],
-    "requirements": [
-      "A device with internet access",
-      "Notebook or digital note-taking",
-      "Calculator (recommended)"
+    "delivery": {
+      "durationWeeks": "4–8 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 60,
+      "recordings": "Unlimited revision access",
+      "format": "Live online tuition with guided practice and feedback"
+    },
+    "aims": [
+      "Understand the main points of clear, standard English in familiar contexts",
+      "Navigate everyday situations independently",
+      "Produce connected speech on familiar topics",
+      "Describe experiences, events, and future intentions",
+      "Express opinions with reasons and explanations",
+      "Write clear, organised texts on familiar subjects",
+      "Participate meaningfully in discussions and problem-solving conversations"
     ],
-    "description": [
-      "This GCSE Maths Masterclass provides structured teaching aligned to UK exam specifications. Lessons focus on core skills, exam strategy, and building consistent progress.",
-      "Students follow a weekly plan of live sessions, guided practice, and feedback. Parents receive updates on attendance and topic progress."
-    ],
-    "courseContent": [
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Expressing opinions, preferences, and viewpoints",
+          "Describing past experiences and future plans",
+          "Discussing work, education, and personal goals",
+          "Handling complaints, requests, and problem-solving situations",
+          "Participating in group discussions",
+          "Understanding extended speech when delivered clearly"
+        ],
+        "realLifeContexts": [
+          "Workplace conversations",
+          "Healthcare appointments",
+          "Travel and transport",
+          "Job interviews",
+          "Public services",
+          "Social situations"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Understanding factual texts, articles, notices, and instructions",
+          "Reading emails, letters, and workplace documents",
+          "Identifying main ideas and key details",
+          "Following guidance materials used in everyday life and work"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Writing structured paragraphs with clear organisation",
+          "Formal and informal emails",
+          "Descriptions of experiences, events, and opinions",
+          "Short reports and narratives",
+          "Explanations and reasoned arguments"
+        ]
+      },
+      "grammarFocus": [
+        "Present perfect (experience, duration, recent events)",
+        "Past simple vs present perfect",
+        "Future forms: will / going to / present continuous",
+        "Modal verbs: must, have to, should, might, could",
+        "Zero and first conditionals",
+        "Passive voice (basic forms)",
+        "Comparatives and superlatives (extended use)",
+        "Linking words: because, although, however, therefore, so"
+      ],
+      "vocabularyTopics": [
+        "Work, careers, skills, and professional communication",
+        "Health, wellbeing, and lifestyle",
+        "Travel, culture, and society",
+        "Technology and digital communication",
+        "Everyday problems and solutions",
+        "Public services and community life"
+      ]
+    },
+    "modules": [
       {
-        "title": "Foundations & Number Skills",
-        "lectures": 8,
-        "duration": "4h 10m"
+        "module": 1,
+        "title": "Review & Fluency Building",
+        "focus": "Consolidate key A2 grammar and rebuild speaking confidence",
+        "keySkills": [
+          "revision",
+          "fluency building",
+          "pronunciation practice"
+        ]
       },
       {
-        "title": "Algebra & Graphs",
-        "lectures": 10,
-        "duration": "5h 20m"
+        "module": 2,
+        "title": "Experiences & Life Events",
+        "focus": "Use present perfect and tell stories clearly",
+        "keySkills": [
+          "present perfect",
+          "storytelling",
+          "connected speech"
+        ]
       },
       {
-        "title": "Geometry & Measures",
-        "lectures": 9,
-        "duration": "4h 45m"
+        "module": 3,
+        "title": "Work & Education",
+        "focus": "Workplace English and education-related communication",
+        "keySkills": [
+          "workplace vocabulary",
+          "professional situations",
+          "requests and responses"
+        ]
       },
       {
-        "title": "Statistics & Probability",
-        "lectures": 6,
-        "duration": "3h 15m"
+        "module": 4,
+        "title": "Plans, Goals & Future",
+        "focus": "Talk confidently about intentions and ambitions",
+        "keySkills": [
+          "future forms",
+          "goal setting language",
+          "planning conversations"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Opinions & Discussions",
+        "focus": "Agree, disagree, and explain your view clearly",
+        "keySkills": [
+          "opinions",
+          "discussion language",
+          "reasoning"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Health, Lifestyle & Advice",
+        "focus": "Give advice and solve problems using modals",
+        "keySkills": [
+          "modal verbs",
+          "advice",
+          "problem-solving language"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Reading & Listening Skills",
+        "focus": "Understand longer texts and clear extended speech",
+        "keySkills": [
+          "scanning and skimming",
+          "detail listening",
+          "comprehension strategies"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Writing Skills",
+        "focus": "Write emails and structured paragraphs with clarity",
+        "keySkills": [
+          "paragraphing",
+          "email writing",
+          "coherence and linking"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Functional English",
+        "focus": "Handle forms, complaints, and public services confidently",
+        "keySkills": [
+          "forms and documents",
+          "complaints",
+          "service conversations"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Revision & Assessment Preparation",
+        "focus": "Mock tests, speaking practice, and feedback to improve results",
+        "keySkills": [
+          "exam technique",
+          "mock assessments",
+          "feedback and improvement plan"
+        ]
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Aligned preparation for ESOL B1 and SELT-style assessment expectations.",
+      "includes": [
+        "Speaking test practice (interaction and presentation)",
+        "Listening practice with clear extended speech and real-world audio",
+        "Reading comprehension techniques and strategies",
+        "Writing tasks with tutor feedback",
+        "Mock assessments and progress reviews",
+        "Guidance on UK ESOL and SELT-style pathways"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve CEFR B1 communicative competence",
+      "Communicate independently in everyday and work contexts",
+      "Understand longer spoken conversations and written texts",
+      "Write clear, organised texts for common real-life needs",
+      "Be ready to progress to ESOL B2 or Functional Skills English Level 1"
+    ],
+    "teachingApproach": [
+      "Clear, structured lessons with practical examples",
+      "Interactive tasks that push real speaking and listening",
+      "Regular feedback on speaking and writing",
+      "Recordings for flexible revision",
+      "Student-centred support aligned to personal goals"
+    ],
+    "cta": {
+      "headline": "Ready to improve your English for the UK?",
+      "text": "Build confident real-life English at B1 level and prepare properly for assessment pathways."
+    }
   },
   {
-    "slug": "alevel-chem",
-    "title": "A-Level Chemistry: Exam-Focused Live Tuition",
-    "subtitle": "Structured A-Level Chemistry coverage with weekly assessments.",
-    "category": "A-Level",
-    "rating": 4.7,
-    "reviews": "6,902",
-    "students": "820",
-    "level": "Years 12–13",
-    "duration": "14 weeks",
+    "id": "esol-english-b2",
+    "slug": "esol-english-b2",
+    "title": "ESOL English B2 (Upper-Intermediate)",
+    "subtitle": "Independent English for visas, higher education, and professional communication.",
+    "category": "ESOL",
+    "badge": "Advanced",
+    "image": "/images/courses/b2.jpg",
+    "rating": 4.8,
+    "reviews": "6,420",
+    "students": "740",
+    "level": "CEFR B2 (Upper-Intermediate)",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£49.99",
+    "oldPrice": "£64.99",
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "B2",
+      "standards": [
+        "CEFR B2 descriptors",
+        "Independent User certification expectations",
+        "Visa, university, and professional English benchmarks"
+      ]
+    },
+    "instructor": {
+      "name": "Senior ESOL & Exam Preparation Team",
+      "title": "Qualified ESOL & Exam Specialists",
+      "bio": "Experienced tutors supporting learners to reach B2 independent-user level, with structured development in academic, professional, and exam-focused English."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "ESOL B1 (or equivalent)",
+      "entryRequirementText": "Learners should be able to communicate independently in familiar situations and understand standard spoken English.",
+      "prerequisites": [
+        "Completion of ESOL B1 or equivalent level",
+        "Stable internet connection for live classes",
+        "Computer, tablet, or smartphone with camera and microphone",
+        "Access to learning platform for materials and recordings"
+      ]
+    },
+    "whoItsFor": [
+      "Learners progressing from ESOL B1 to upper-intermediate level",
+      "Visa applicants requiring B2 English for UK immigration pathways",
+      "University applicants needing B2 certification for entry",
+      "Professionals seeking career progression in English-speaking environments",
+      "Healthcare professionals preparing for professional registration (e.g., OET/IELTS pathways)",
+      "Learners aiming to progress to CEFR C1 or IELTS 7.0+"
+    ],
+    "overview": [
+      "The ESOL English B2 (Upper-Intermediate) course develops confident, independent English proficiency for complex real-life communication in the UK and beyond.",
+      "Across 8–12 weeks, learners build fluency and accuracy in speaking, listening, reading, and writing, with structured support for academic, professional, and visa-related contexts.",
+      "The course is aligned with CEFR B2 standards and supports recognised exam pathways through practice, feedback, and mock assessments."
+    ],
+    "aims": [
+      "Communicate fluently and spontaneously in professional and social settings",
+      "Understand complex spoken English and written texts on concrete and abstract topics",
+      "Express detailed opinions and support arguments with clear reasoning",
+      "Write clear, detailed texts across a wide range of subjects",
+      "Develop confidence for visa applications, interviews, and academic environments",
+      "Perform successfully in B2-level English language assessments"
+    ],
+    "whatYouLearn": [
+      "Speak fluently in meetings, interviews, discussions, and formal situations",
+      "Follow extended speech at natural pace, including varied accents",
+      "Read complex articles and reports and understand inference and implied meaning",
+      "Write well-structured essays, reports, reviews, and professional correspondence",
+      "Use grammar and vocabulary flexibly to express nuance and precision",
+      "Apply exam strategies through mock tasks and targeted feedback"
+    ],
+    "includes": [
+      "2–3 live structured lessons per week",
+      "60-minute lessons with guided practice",
+      "Recorded support materials for revision",
+      "Regular speaking and writing assessments with feedback",
+      "Mock exams and exam-readiness guidance",
+      "Personalised learning goals and progress reviews"
+    ],
+    "delivery": {
+      "durationWeeks": "8–12 weeks",
+      "sessionsPerWeek": "2–3",
+      "totalLessons": "24–36",
+      "lessonLengthMinutes": 60,
+      "recordings": "Recorded support materials included",
+      "format": "Live online tuition + recorded materials",
+      "pathways": [
+        "8-week intensive option",
+        "12-week standard programme",
+        "Additional support sessions for visa deadlines (where available)"
+      ]
+    },
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Fluent and spontaneous conversation",
+          "Debates and structured discussions",
+          "Presentations and explanations with clarity",
+          "Understanding extended speech and varied accents",
+          "Pronunciation refinement: stress, rhythm, and intonation",
+          "Register control: formal vs informal communication"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Understanding complex texts (articles, reports, opinion pieces)",
+          "Identifying tone, purpose, and implied meaning",
+          "Developing inference and critical reading strategies",
+          "Reading for detail and summarising key points accurately"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Essays and academic writing conventions",
+          "Reports, reviews, and formal documents",
+          "Professional emails and workplace correspondence",
+          "Cohesion and coherence using advanced linking",
+          "Writing arguments with evidence and reasoning"
+        ]
+      },
+      "grammarFocus": [
+        "Present perfect (simple and continuous)",
+        "Past perfect and narrative sequencing",
+        "Future forms (advanced use)",
+        "Conditionals (zero, first, second, third)",
+        "Modal verbs (obligation, advice, probability, deduction)",
+        "Passive voice (all tenses)",
+        "Reported speech and indirect questions",
+        "Relative clauses (defining and non-defining)",
+        "Advanced linking devices and discourse markers"
+      ],
+      "vocabularyTopics": [
+        "Professional and workplace communication",
+        "Academic language and formal discourse",
+        "Current affairs, society, and media",
+        "Technology and digital communication",
+        "Health, environment, and sustainability",
+        "Culture, arts, and international topics",
+        "Immigration, travel, and global mobility"
+      ]
+    },
+    "modules": [
+      {
+        "module": 1,
+        "title": "Course Foundations & Skills Assessment",
+        "focus": "Orientation, B1 consolidation, fluency goals, optional diagnostic review"
+      },
+      {
+        "module": 2,
+        "title": "Experiences & Present Perfect Mastery",
+        "focus": "Present perfect simple vs continuous; achievements and experience language"
+      },
+      {
+        "module": 3,
+        "title": "Narrative Language & Storytelling",
+        "focus": "Past perfect and narrative sequencing; writing clear event descriptions"
+      },
+      {
+        "module": 4,
+        "title": "Future Forms & Goal Setting",
+        "focus": "Plans, predictions, intentions; presenting future objectives"
+      },
+      {
+        "module": 5,
+        "title": "Opinions, Arguments & Critical Discussion",
+        "focus": "Persuasive language, debates, respectful challenge, advanced discourse markers"
+      },
+      {
+        "module": 6,
+        "title": "Professional English & Workplace Communication",
+        "focus": "Meetings, interviews, presentations; professional emails and reports"
+      },
+      {
+        "module": 7,
+        "title": "Conditionals & Hypothetical Reasoning",
+        "focus": "Second and third conditionals; regrets, alternatives, hypothetical problem-solving"
+      },
+      {
+        "module": 8,
+        "title": "Modal Verbs & Nuanced Meaning",
+        "focus": "Advice, obligation, probability, deduction; reasoned explanations"
+      },
+      {
+        "module": 9,
+        "title": "Advanced Reading & Vocabulary Expansion",
+        "focus": "Longer texts; inference; vocabulary systems and learning strategies"
+      },
+      {
+        "module": 10,
+        "title": "Advanced Writing Skills",
+        "focus": "Essays, reviews, reports; cohesion and coherence with advanced linking"
+      },
+      {
+        "module": 11,
+        "title": "Listening, Pronunciation & Presentations",
+        "focus": "Extended speech, accents, clarity at natural speed; formal presentations"
+      },
+      {
+        "module": 12,
+        "title": "Functional English for Visa & Professional Contexts",
+        "focus": "Official interactions, interview techniques, public services and institutions"
+      },
+      {
+        "module": 13,
+        "title": "Examination Preparation & Practice",
+        "focus": "Speaking simulations, timed writing, reading/listening mocks, performance analysis"
+      },
+      {
+        "module": 14,
+        "title": "Final Assessment & Progression Guidance",
+        "focus": "Optional final mock assessment, progress review, next-step planning",
+        "optional": true
+      }
+    ],
+    "assessmentPrep": {
+      "focus": "Visa- and exam-aligned preparation for B2-level certification and performance standards.",
+      "includes": [
+        "Regular speaking assessments with detailed feedback",
+        "Writing evaluation against B2 performance criteria",
+        "Listening practice with extended authentic speech",
+        "Reading tasks using complex authentic texts",
+        "Full mock examinations and performance analysis",
+        "Exam pathway guidance for visa, work, and study needs",
+        "Individual coaching for targeted improvement"
+      ]
+    },
+    "examPreparation": {
+      "supportedExams": [
+        "IELTS (Academic & General Training)",
+        "Trinity College London SELT",
+        "LanguageCert International ESOL",
+        "Pearson PTE Academic",
+        "Cambridge English Qualifications"
+      ],
+      "note": "Britskill Academy provides preparation and guidance. Official examinations are conducted through approved assessment centres."
+    },
+    "learningOutcomes": [
+      "Achieve CEFR B2 independent user competence",
+      "Communicate fluently in professional and academic contexts",
+      "Understand complex spoken discourse and sophisticated written texts",
+      "Write clear, detailed, well-structured documents across genres",
+      "Meet English language requirements for UK visa applications and university admissions",
+      "Be prepared to progress to CEFR C1 and advanced exam preparation pathways"
+    ],
+    "teachingApproach": [
+      "Expert-led instruction by ESOL and exam preparation specialists",
+      "Structured curriculum with measurable outcomes",
+      "Interactive tasks focused on real-world use",
+      "Continuous assessment with actionable feedback",
+      "Personalised learning plans aligned to goals and timelines",
+      "Small-group approach where possible for individual attention"
+    ],
+    "cta": {
+      "headline": "Ready to achieve B2 English proficiency?",
+      "text": "Build independent English for visas, university, and professional life with structured teaching, feedback, and exam preparation."
+    }
+  },
+  {
+    "id": "esol-english-c1",
+    "slug": "esol-english-c1",
+    "title": "ESOL English C1 (Advanced)",
+    "subtitle": "Proficient-user English for postgraduate study, senior roles, and high-stakes communication.",
+    "category": "ESOL",
+    "badge": "Proficient",
+    "image": "/images/courses/c1.jpg",
+    "rating": 4.9,
+    "reviews": "3,980",
+    "students": "420",
+    "level": "CEFR C1 (Advanced)",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£449.00",
+    "oldPrice": "£499.00",
+    "pricingOptions": [
+      {
+        "label": "Weekly",
+        "priceRange": "£30–£32 per week"
+      },
+      {
+        "label": "Monthly",
+        "price": "£110 per month"
+      },
+      {
+        "label": "Full Course",
+        "priceRange": "£420–£450 (12–14 weeks)"
+      }
+    ],
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "C1",
+      "standards": [
+        "CEFR C1 descriptors",
+        "Proficient User certification expectations",
+        "Postgraduate study and professional registration language benchmarks",
+        "Advanced workplace communication standards"
+      ]
+    },
+    "instructor": {
+      "name": "Advanced English & Exam Preparation Team",
+      "title": "Senior Tutors (C1 Specialists)",
+      "bio": "Specialists in advanced English, academic writing, professional communication, and high-level exam preparation."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "ESOL B2 (or equivalent)",
+      "entryRequirementText": "Learners should communicate fluently at upper-intermediate level and understand most complex conversations and texts.",
+      "prerequisites": [
+        "Completion of ESOL B2 or equivalent proficiency",
+        "Reliable high-speed internet connection",
+        "Computer/tablet/phone with webcam and microphone",
+        "Access to the learning platform for materials and recordings",
+        "Quiet study environment for focused learning"
+      ]
+    },
+    "whoItsFor": [
+      "Learners progressing from ESOL B2 to advanced proficiency",
+      "Professionals working in senior or specialised roles in English-speaking environments",
+      "Postgraduate applicants requiring C1 certification",
+      "Healthcare professionals preparing for registration (OET / IELTS 7.0+ pathways)",
+      "Teachers and educators working towards English-medium qualification routes",
+      "Skilled migrants pursuing permanent residency or citizenship pathways",
+      "High-achieving learners aiming for near-native fluency and precision"
+    ],
+    "overview": [
+      "The ESOL English C1 (Advanced) course develops proficient-user English for demanding academic, professional, and institutional settings.",
+      "Learners build the ability to express complex ideas fluently, use language precisely, and understand challenging texts and fast natural speech across accents.",
+      "The programme runs for 12–14 weeks and includes intensive practice, detailed feedback, and structured preparation for recognised C1 examinations."
+    ],
+    "whyC1Matters": [
+      "Postgraduate and doctoral programme entry",
+      "Senior professional roles and leadership communication",
+      "Regulated professions (teaching, healthcare, law) where advanced English is required",
+      "Skilled migration and permanent residency pathways",
+      "Credibility and authority in high-stakes professional communication"
+    ],
+    "aims": [
+      "Understand demanding, complex, and abstract texts across domains",
+      "Express ideas fluently, spontaneously, and precisely across topics",
+      "Use English flexibly for social, academic, and professional purposes",
+      "Present arguments persuasively with sophisticated supporting evidence",
+      "Write well-structured texts in formal and academic registers",
+      "Communicate confidently in interviews, negotiations, and presentations",
+      "Demonstrate cultural awareness and appropriate register across contexts"
+    ],
+    "whatYouLearn": [
+      "Lead complex conversations, debates, and negotiations with confidence and diplomacy",
+      "Deliver professional presentations with clear structure and impact",
+      "Analyse academic and professional texts for argument, bias, tone, and rhetorical strategy",
+      "Write advanced essays, reports, proposals, and formal correspondence",
+      "Use advanced grammar and discourse markers naturally in speech and writing",
+      "Develop lexical sophistication through collocations, idioms, and register control",
+      "Apply exam strategies under timed conditions with performance optimisation"
+    ],
+    "includes": [
+      "2–3 intensive live sessions per week",
+      "60-minute lessons with advanced speaking, reading, and writing tasks",
+      "Comprehensive recorded support materials for revision",
+      "Rigorous feedback on speaking and writing",
+      "Mock examinations and performance analysis",
+      "Progress report and C1 readiness confirmation (course-based)",
+      "Exam selection and booking guidance"
+    ],
+    "delivery": {
+      "durationWeeks": "12–14 weeks",
+      "sessionsPerWeek": "2–3",
+      "totalLessons": "36–42",
+      "lessonLengthMinutes": 60,
+      "format": "Live online tuition + comprehensive recorded support",
+      "pathways": [
+        "12-week intensive programme (standard)",
+        "14-week extended option (more depth and consolidation)",
+        "Optional one-to-one tutorials (additional booking)"
+      ]
+    },
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Complex discussions and panel-style debates",
+          "Professional meetings and negotiations",
+          "Persuasive presentations and stakeholder communication",
+          "Diplomatic disagreement and nuanced tone",
+          "Understanding fast speech across diverse accents",
+          "Pronunciation refinement: stress, rhythm, intonation for clarity and authority"
+        ],
+        "realLifeApplications": [
+          "Academic seminars and conferences",
+          "Professional interviews and assessment centres",
+          "Client meetings and business negotiations",
+          "Public speaking and media-style communication",
+          "Institutional contexts and formal hearings"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Critical analysis of academic articles and research-style texts",
+          "Interpreting policy papers, reports, editorials, and argumentation",
+          "Identifying bias, tone, implied meaning, and rhetorical devices",
+          "Synthesising information across multiple complex sources"
+        ],
+        "textTypes": [
+          "Academic journals and scholarly publications",
+          "Legal and policy documents",
+          "Business reports and strategic plans",
+          "Opinion pieces and editorials",
+          "Technical and specialist texts"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Academic essays with sophisticated argumentation",
+          "Professional reports, proposals, and executive summaries",
+          "Formal letters and institutional correspondence",
+          "Critical reviews and analytical writing",
+          "Editing and proofreading for register, audience, and precision"
+        ],
+        "contexts": [
+          "Postgraduate coursework and dissertations",
+          "Business and institutional documentation",
+          "Official applications and formal submissions",
+          "Research proposals and professional reports"
+        ]
+      },
+      "listening": {
+        "skills": [
+          "Understanding extended speech on abstract and specialist topics",
+          "Following complex arguments and nuanced viewpoints",
+          "Comprehending diverse accents and speaking styles",
+          "Extracting detailed information from lectures and presentations",
+          "Recognising implicit meaning and speaker attitude"
+        ]
+      },
+      "grammarFocus": [
+        "Advanced verb forms and aspect",
+        "Mixed conditionals and complex hypothetical reasoning",
+        "Advanced passive structures across tenses",
+        "Cleft sentences for emphasis (It was..., What I...)",
+        "Inversion for stylistic and emphatic effect",
+        "Advanced modal meaning (subtlety and stance)",
+        "Complex relative clauses (including reduced forms)",
+        "Discourse markers for sophisticated cohesion",
+        "Register and style variation across contexts"
+      ],
+      "vocabularyTopics": [
+        "Academic and research language",
+        "Business, finance, and corporate communication",
+        "Law, governance, and policy discourse",
+        "Education and pedagogy",
+        "Healthcare and public health communication",
+        "Science, technology, and innovation",
+        "Society, international relations, and contemporary issues",
+        "Environment, sustainability, and climate topics",
+        "Idioms, collocations, and precision vocabulary"
+      ]
+    },
+    "modules": [
+      {
+        "module": 1,
+        "title": "Orientation & Diagnostic Assessment",
+        "focus": "Baseline evaluation and personalised development plan"
+      },
+      {
+        "module": 2,
+        "title": "Advanced Fluency & Precision",
+        "focus": "Natural rhythm, nuance, self-monitoring, and spontaneous discourse"
+      },
+      {
+        "module": 3,
+        "title": "Complex Grammar & Linguistic Accuracy",
+        "focus": "Inversion, cleft structures, advanced patterns in context"
+      },
+      {
+        "module": 4,
+        "title": "Academic Reading & Critical Analysis",
+        "focus": "Argument structure, bias, rhetoric, and critical interpretation"
+      },
+      {
+        "module": 5,
+        "title": "Advanced Academic Writing",
+        "focus": "Thesis development, evidence, academic register, citation awareness"
+      },
+      {
+        "module": 6,
+        "title": "Professional Communication Excellence",
+        "focus": "Meetings, negotiations, proposals, executive communication"
+      },
+      {
+        "module": 7,
+        "title": "Advanced Listening & Pronunciation Refinement",
+        "focus": "Fast speech, diverse accents, clarity, and presentation delivery"
+      },
+      {
+        "module": 8,
+        "title": "Vocabulary Sophistication & Idiomatic Language",
+        "focus": "Collocations, idioms, register control, lexical precision"
+      },
+      {
+        "module": 9,
+        "title": "Debates & Persuasive Communication",
+        "focus": "Formal debate, counterarguments, diplomatic disagreement"
+      },
+      {
+        "module": 10,
+        "title": "Professional & Official Writing",
+        "focus": "Reports, proposals, executive summaries, editing and proofreading"
+      },
+      {
+        "module": 11,
+        "title": "High-Level Functional English",
+        "focus": "Senior interviews, institutional contexts, complex problem-solving"
+      },
+      {
+        "module": 12,
+        "title": "Examination Strategies & Performance",
+        "focus": "Timed tasks, mock exams, performance optimisation"
+      },
+      {
+        "module": 13,
+        "title": "Revision & Performance Enhancement",
+        "focus": "Targeted improvement and confidence for high-stakes communication"
+      },
+      {
+        "module": 14,
+        "title": "Final Assessment & Progression Planning",
+        "focus": "Optional full mock exam, final presentation, next-step guidance",
+        "optional": true
+      }
+    ],
+    "assessmentPrep": {
+      "focus": "High-level C1 exam readiness with detailed performance feedback and strategy training.",
+      "includes": [
+        "Advanced speaking practice with performance feedback",
+        "Academic writing assessment against C1 criteria",
+        "Authentic listening tasks and analysis",
+        "Complex reading comprehension and synthesis tasks",
+        "Full mock examinations with detailed performance reports",
+        "Strategic exam techniques and time management",
+        "Individual coaching aligned to academic/professional goals"
+      ]
+    },
+    "examPreparation": {
+      "supportedExams": [
+        "IELTS Academic (7.0–8.0 target band)",
+        "Cambridge C1 Advanced (CAE)",
+        "Trinity College London ISE III (C1)",
+        "LanguageCert C1 Expert",
+        "Pearson PTE Academic (65+)",
+        "OET (B grade minimum)"
+      ],
+      "note": "Britskill Academy provides preparation aligned with official exam formats. Examinations are conducted through approved assessment centres."
+    },
+    "learningOutcomes": [
+      "Achieve CEFR C1 proficient user competence",
+      "Communicate with near-native fluency, precision, and sophistication",
+      "Excel in demanding academic and professional environments",
+      "Write advanced texts with strong structure, register control, and cohesion",
+      "Meet advanced English requirements for postgraduate study and professional registration",
+      "Be prepared to progress to C2 (Mastery) or highly specialised professional English pathways"
+    ],
+    "teachingApproach": [
+      "Specialist-led instruction for advanced language development",
+      "Seminar-style interaction: debates, workshops, and presentations",
+      "Research-informed teaching and rigorous assessment rubrics",
+      "Detailed feedback designed for measurable improvement",
+      "Optional tutorials and writing clinic support (where available)"
+    ],
+    "supportServices": [
+      "One-to-one tutorials (additional booking)",
+      "Writing clinic for academic and professional documents",
+      "Speaking practice partners / peer practice opportunities",
+      "Resource library access",
+      "Post-course consultation for exam selection"
+    ],
+    "faq": [
+      {
+        "q": "How is C1 different from B2?",
+        "a": "C1 is a step up in sophistication and control. You’ll handle abstract topics naturally, use precise language across registers, and communicate confidently in high-stakes professional and academic settings."
+      },
+      {
+        "q": "Which exam should I take for my visa application?",
+        "a": "It depends on your visa route and the requirement set by the relevant authority. We provide guidance on choosing the appropriate exam and preparation pathway."
+      },
+      {
+        "q": "Can I complete C1 in less than 12 weeks?",
+        "a": "The recommended pathway is 12–14 weeks for strong outcomes. Intensive options may be possible for learners with a very strong B2 foundation."
+      },
+      {
+        "q": "Do you offer support after the course ends?",
+        "a": "Yes. We offer post-course consultation, exam booking guidance, and access to ongoing support options where available."
+      }
+    ],
+    "cta": {
+      "headline": "Ready to achieve advanced English mastery?",
+      "text": "Build C1-level fluency, precision, and confidence for postgraduate study, senior roles, and recognised certification pathways."
+    }
+  },
+  {
+    "id": "esol-english-a1",
+    "slug": "esol-english-a1",
+    "title": "ESOL English A1 (Beginner)",
+    "subtitle": "Start from zero and build the English you need for daily life in the UK.",
+    "category": "ESOL",
+    "badge": "Beginner",
+    "image": "/images/courses/a1.jpg",
+    "rating": 4.6,
+    "reviews": "5,210",
+    "students": "1,120",
+    "level": "CEFR A1 (Beginner)",
     "language": "English",
     "lastUpdated": "January 2026",
     "price": "£24.99",
     "oldPrice": "£34.99",
-    "badge": "Premium",
-    "instructor": "Dr. James Carter",
-    "instructorTitle": "Senior Chemistry Tutor, PhD",
-    "instructorBio": "Specialist in A-Level Chemistry with a focus on exam technique and practical skills.",
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "A1",
+      "standards": [
+        "CEFR A1 descriptors",
+        "Entry-level ESOL exam expectations"
+      ]
+    },
+    "instructor": {
+      "name": "ESOL Teaching Team",
+      "title": "Qualified ESOL Tutors",
+      "bio": "Supportive teachers specialising in beginner learners, with clear step-by-step teaching and lots of speaking practice."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "No previous English required",
+      "entryRequirementText": "This course is designed for adults with little or no English.",
+      "prerequisites": [
+        "Device with internet access",
+        "Notebook or digital note-taking",
+        "Stable connection for live classes"
+      ]
+    },
+    "whoItsFor": [
+      "Adults who are new to English",
+      "Learners who understand very little spoken English",
+      "New migrants or residents in the UK",
+      "Learners preparing for ESOL A1 exams",
+      "Anyone who wants to improve basic English communication",
+      "Learners planning to progress to ESOL A2 or Functional Skills English"
+    ],
+    "overview": [
+      "The ESOL English A1 (Beginner) course is designed for adults with little or no knowledge of English.",
+      "You’ll build a strong foundation in everyday English across speaking, listening, reading, and writing for daily life in the UK.",
+      "The course follows CEFR A1 and supports communication in simple situations such as shopping, travel, work, and appointments."
+    ],
+    "aims": [
+      "Introduce yourself and others clearly",
+      "Ask and answer simple personal questions",
+      "Understand basic spoken English when spoken slowly",
+      "Read simple texts such as signs, forms, and messages",
+      "Write short sentences and basic personal information",
+      "Communicate more confidently in everyday situations"
+    ],
     "whatYouLearn": [
-      "Master core A-Level Chemistry topics and calculations",
-      "Strengthen exam technique with timed practice",
-      "Understand required practicals and analysis",
-      "Build confidence across organic, inorganic, and physical chemistry"
+      "Greetings and introductions for everyday situations",
+      "How to give personal details (name, address, family, job)",
+      "Basic English for shopping, food, travel, and appointments",
+      "How to ask for directions and understand simple instructions",
+      "How to read signs, short messages, and basic forms",
+      "How to write short sentences, notes, and simple messages"
     ],
     "includes": [
-      "Live weekly lessons",
-      "Topic-based assessments",
-      "Lesson recordings",
-      "Practice papers and mark schemes"
+      "2–3 live online classes per week",
+      "60-minute lessons",
+      "Recorded lessons available anytime",
+      "Interactive speaking practice in class",
+      "Revision, mock tests, and exam practice support"
     ],
-    "requirements": [
-      "Basic GCSE Chemistry knowledge",
-      "Scientific calculator",
-      "A-level specification booklet (optional)"
-    ],
-    "description": [
-      "This course is designed to guide A-Level students through the full Chemistry specification in a clear and consistent format.",
-      "Live lessons are supported with exam practice, feedback, and targeted revision tasks."
-    ],
-    "courseContent": [
+    "delivery": {
+      "durationWeeks": "4–6 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 60,
+      "recordings": "Available anytime",
+      "format": "Live online tuition + recorded revision materials",
+      "support": [
+        "English support",
+        "Hindi support available in live classes if required"
+      ]
+    },
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Greetings and introductions",
+          "Personal information (name, age, job, family)",
+          "Daily routine and free time",
+          "Shopping and ordering food",
+          "Asking for directions",
+          "Health and appointments",
+          "Simple work-related conversations"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Short texts and notices",
+          "Simple emails and messages",
+          "Forms and basic instructions"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Writing short sentences",
+          "Filling in forms",
+          "Writing personal information",
+          "Simple messages and notes"
+        ]
+      },
+      "grammarFocus": [
+        "Alphabet and pronunciation",
+        "Verb 'to be' (am/is/are)",
+        "Present simple",
+        "Questions and short answers",
+        "Articles (a, an, the)",
+        "Singular and plural nouns",
+        "Prepositions of time and place",
+        "Can / can't",
+        "There is / there are"
+      ],
+      "vocabularyTopics": [
+        "Everyday words and expressions",
+        "Numbers, dates, and time",
+        "Food, travel, work, and health",
+        "Family and places"
+      ]
+    },
+    "modules": [
       {
-        "title": "Atomic Structure & Bonding",
-        "lectures": 7,
-        "duration": "3h 50m"
+        "module": 1,
+        "title": "Introduction to English",
+        "focus": "Alphabet, sounds, greetings, introductions"
       },
       {
-        "title": "Energetics & Kinetics",
-        "lectures": 8,
-        "duration": "4h 15m"
+        "module": 2,
+        "title": "Personal Information",
+        "focus": "Family, nationality, jobs, simple questions"
       },
       {
-        "title": "Organic Chemistry Foundations",
-        "lectures": 9,
-        "duration": "5h 10m"
+        "module": 3,
+        "title": "Daily Life",
+        "focus": "Routine, time, days, present simple"
       },
       {
-        "title": "Equilibria & Acids",
-        "lectures": 6,
-        "duration": "3h 30m"
+        "module": 4,
+        "title": "Describing People & Places",
+        "focus": "Adjectives, family, home"
+      },
+      {
+        "module": 5,
+        "title": "Food & Shopping",
+        "focus": "Ordering food, prices, numbers"
+      },
+      {
+        "module": 6,
+        "title": "Home & Directions",
+        "focus": "Places, directions, prepositions"
+      },
+      {
+        "module": 7,
+        "title": "Health & Appointments",
+        "focus": "Health problems, advice, can/can’t"
+      },
+      {
+        "module": 8,
+        "title": "Travel & Transport",
+        "focus": "Transport, asking for help"
+      },
+      {
+        "module": 9,
+        "title": "Work & Communication",
+        "focus": "Basic workplace English, polite requests"
+      },
+      {
+        "module": 10,
+        "title": "Revision & Exam Practice",
+        "focus": "Full revision, mock tests, speaking practice"
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Support for ESOL A1 exam preparation and confidence-building practice.",
+      "includes": [
+        "Grammar and vocabulary revision",
+        "Speaking practice with a teacher",
+        "Listening and reading exercises",
+        "Writing practice tasks",
+        "Mock exams and practice papers",
+        "Guidance on ESOL exam booking (UK exam centres)"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve CEFR A1 level English",
+      "Communicate more confidently in daily life",
+      "Understand simple spoken English when delivered clearly and slowly",
+      "Read and write basic English texts",
+      "Be ready to progress to ESOL A2, Functional Skills English, or workplace English courses"
+    ],
+    "teachingApproach": [
+      "Live online classes with qualified teachers",
+      "Clear PPT-based teaching using simple explanations",
+      "Interactive speaking practice in every lesson",
+      "Recorded lessons for revision and self-study",
+      "Supportive classroom environment for beginner learners"
+    ],
+    "cta": {
+      "headline": "Ready to start learning English?",
+      "text": "Build your foundation from A1 and gain confidence for everyday life in the UK."
+    }
   },
   {
-    "slug": "functional-english",
-    "title": "Functional Skills English (Level 1 & 2)",
-    "subtitle": "Practical English for workplace and study.",
-    "category": "Functional Skills",
-    "rating": 4.6,
-    "reviews": "2,890",
-    "students": "640",
-    "level": "Level 1 & 2",
-    "duration": "10 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£20.99",
-    "oldPrice": "£26.99",
-    "badge": "Flexible",
-    "instructor": "Mrs. Anna Brooks",
-    "instructorTitle": "Functional Skills Specialist",
-    "instructorBio": "Helps adult learners and apprentices build practical English skills for work and study.",
-    "whatYouLearn": [
-      "Improve reading comprehension and summarising",
-      "Strengthen writing for everyday and workplace tasks",
-      "Build speaking and listening confidence",
-      "Prepare for Level 1 or Level 2 assessment formats"
-    ],
-    "includes": [
-      "Live lessons with small groups",
-      "Functional Skills practice tasks",
-      "Mock tests and feedback",
-      "Recordings for catch-up"
-    ],
-    "requirements": [
-      "A device with internet access",
-      "Notebook or digital note-taking"
-    ],
-    "description": [
-      "Functional Skills English focuses on practical communication and exam preparation, with clear weekly targets.",
-      "Students receive feedback and guidance to prepare for Level 1 or Level 2 assessments."
-    ],
-    "courseContent": [
-      {
-        "title": "Reading for Meaning",
-        "lectures": 6,
-        "duration": "2h 50m"
-      },
-      {
-        "title": "Writing for Purpose",
-        "lectures": 7,
-        "duration": "3h 10m"
-      },
-      {
-        "title": "Speaking & Listening",
-        "lectures": 5,
-        "duration": "2h 20m"
-      }
-    ]
-  },
-  {
-    "slug": "gcse-eng",
-    "title": "GCSE English Language: Writing & Analysis",
-    "subtitle": "Build exam-ready reading and writing skills with live tutoring.",
-    "category": "GCSE",
-    "rating": 4.8,
-    "reviews": "18,211",
-    "students": "1,540",
-    "level": "Years 10–11",
-    "duration": "12 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£27.99",
-    "oldPrice": "£32.99",
-    "badge": "Top rated",
-    "instructor": "Ms. Angela Yu",
-    "instructorTitle": "GCSE English Tutor",
-    "instructorBio": "Supports students with analytical writing, reading comprehension, and exam technique.",
-    "whatYouLearn": [
-      "Develop strong analytical reading skills",
-      "Improve writing structure and clarity",
-      "Practise exam-style questions and timing",
-      "Build confidence with language techniques"
-    ],
-    "includes": [
-      "Live weekly lessons",
-      "Small group classes",
-      "Writing feedback and revision tasks",
-      "Lesson recordings"
-    ],
-    "requirements": [
-      "Notebook or digital note-taking",
-      "English dictionary (optional)"
-    ],
-    "description": [
-      "This course focuses on GCSE English Language skills, from analysis to clear, exam-ready writing.",
-      "Students receive guided practice and feedback aligned to UK exam boards."
-    ],
-    "courseContent": [
-      {
-        "title": "Reading Skills & Analysis",
-        "lectures": 7,
-        "duration": "3h 40m"
-      },
-      {
-        "title": "Writing for Purpose",
-        "lectures": 8,
-        "duration": "4h 10m"
-      },
-      {
-        "title": "Exam Technique & Timing",
-        "lectures": 5,
-        "duration": "2h 30m"
-      }
-    ]
-  },
-  {
-    "slug": "alevel-bio",
-    "title": "A-Level Biology: Live Lessons & Revision",
-    "subtitle": "Core biology concepts, assessments, and exam practice.",
-    "category": "A-Level",
-    "rating": 4.7,
-    "reviews": "9,734",
-    "students": "960",
-    "level": "Years 12–13",
-    "duration": "14 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£25.99",
-    "oldPrice": "£31.99",
-    "badge": "Bestseller",
-    "instructor": "Dr. Helen Morris",
-    "instructorTitle": "A-Level Biology Tutor",
-    "instructorBio": "Helps students connect biological concepts to exam questions and practical work.",
-    "whatYouLearn": [
-      "Build strong foundations in core biology topics",
-      "Practise exam questions and data analysis",
-      "Prepare for required practicals",
-      "Strengthen revision strategies"
-    ],
-    "includes": [
-      "Live weekly lessons",
-      "Revision packs and summaries",
-      "Practice papers and feedback",
-      "Lesson recordings"
-    ],
-    "requirements": [
-      "GCSE Biology knowledge",
-      "Scientific calculator"
-    ],
-    "description": [
-      "This A-Level Biology course provides structured teaching with regular checks for understanding.",
-      "Students receive targeted feedback to improve exam performance."
-    ],
-    "courseContent": [
-      {
-        "title": "Cells, Transport & Genetics",
-        "lectures": 8,
-        "duration": "4h 30m"
-      },
-      {
-        "title": "Ecology & Physiology",
-        "lectures": 7,
-        "duration": "4h 5m"
-      },
-      {
-        "title": "Practicals & Data Skills",
-        "lectures": 5,
-        "duration": "2h 40m"
-      }
-    ]
-  },
-  {
-    "slug": "functional-maths",
-    "title": "Functional Skills Maths (Level 1 & 2)",
-    "subtitle": "Practical maths for work, study, and everyday life.",
-    "category": "Functional Skills",
-    "rating": 4.6,
-    "reviews": "1,204",
-    "students": "520",
-    "level": "Level 1 & 2",
-    "duration": "10 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£19.99",
-    "oldPrice": "£24.99",
-    "badge": "Flexible",
-    "instructor": "Mr. David Clarke",
-    "instructorTitle": "Functional Skills Maths Tutor",
-    "instructorBio": "Focuses on practical maths skills and exam preparation for adult learners.",
-    "whatYouLearn": [
-      "Apply maths to real-world scenarios",
-      "Build confidence with number skills",
-      "Prepare for Level 1 and Level 2 assessments",
-      "Improve accuracy and problem solving"
-    ],
-    "includes": [
-      "Live weekly lessons",
-      "Practice worksheets",
-      "Mock assessments",
-      "Lesson recordings"
-    ],
-    "requirements": [
-      "Notebook or digital note-taking",
-      "Calculator (recommended)"
-    ],
-    "description": [
-      "Functional Skills Maths is designed for practical application and clear exam preparation.",
-      "Students are supported with targeted practice and feedback."
-    ],
-    "courseContent": [
-      {
-        "title": "Number & Measures",
-        "lectures": 6,
-        "duration": "2h 40m"
-      },
-      {
-        "title": "Data & Statistics",
-        "lectures": 5,
-        "duration": "2h 10m"
-      },
-      {
-        "title": "Problem Solving",
-        "lectures": 4,
-        "duration": "1h 50m"
-      }
-    ]
-  },
-  {
-    "slug": "esol-starter",
-    "title": "ESOL Starter: Entry 1–3",
-    "subtitle": "Build core English skills for education and work.",
+    "id": "esol-english-a2",
+    "slug": "esol-english-a2",
+    "title": "ESOL English A2 (Elementary)",
+    "subtitle": "Build confidence in everyday English for life, work, and UK integration at CEFR A2 level.",
     "category": "ESOL",
+    "badge": "Beginner-Friendly",
+    "image": "/images/courses/a2.jpg",
     "rating": 4.7,
-    "reviews": "1,840",
-    "students": "430",
-    "level": "Entry 1–3",
-    "duration": "8 weeks",
+    "reviews": "6,210",
+    "students": "1,450",
+    "level": "CEFR A2 (Elementary)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£18.99",
-    "oldPrice": "£22.99",
-    "badge": "Live",
-    "instructor": "Ms. Amina Khan",
-    "instructorTitle": "ESOL Tutor",
-    "instructorBio": "Supports learners with practical English skills and confidence building.",
+    "price": "£22/week or £220–£240 full course",
+    "oldPrice": null,
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "A2",
+      "standards": [
+        "CEFR A2 descriptors (British Council / Council of Europe)",
+        "UK ESOL qualifications framework (Entry Level 2 equivalent)",
+        "Preparation for ESOL A2 exams and progression to Functional Skills English Level 1"
+      ]
+    },
+    "instructor": {
+      "name": "ESOL Teaching Team",
+      "title": "Qualified ESOL Tutors",
+      "bio": "Experienced ESOL tutors delivering CEFR-aligned teaching with a strong focus on practical communication, speaking confidence, and UK everyday life integration."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "ESOL A1 or equivalent (basic English)",
+      "entryRequirementText": "You should be able to understand and use very basic everyday English, form simple sentences, and handle short interactions.",
+      "prerequisites": [
+        "Completion of ESOL A1 or short initial assessment",
+        "Device with internet access",
+        "Microphone for speaking practice"
+      ]
+    },
+    "whoItsFor": [
+      "Learners progressing from ESOL A1 who want to build fluency and accuracy",
+      "Adults with basic English seeking confidence in daily conversations",
+      "People living, working, or settling in the UK",
+      "Learners preparing for ESOL A2 exams (e.g., LanguageCert, Trinity GESE Grade 3 SELT)",
+      "Those aiming to progress to Functional Skills English Level 1 or ESOL B1"
+    ],
+    "overview": [
+      "This ESOL English A2 (Elementary) course helps learners communicate more confidently in common everyday situations, building on basic knowledge for real-life use in the UK.",
+      "The curriculum aligns with CEFR A2 descriptors: understanding simple sentences, short conversations, basic texts, and writing short messages.",
+      "Ideal for improving speaking fluency, listening comprehension, reading short texts, and writing simple paragraphs—plus structured exam-style practice."
+    ],
     "whatYouLearn": [
-      "Improve speaking and listening confidence",
-      "Build essential reading and writing skills",
-      "Follow structured ESOL pathways",
-      "Prepare for entry-level assessments"
+      "Understand sentences and common expressions about familiar topics (family, shopping, work, routines)",
+      "Communicate in simple, direct exchanges on everyday matters",
+      "Describe past experiences, plans, people, places, and immediate needs in basic terms",
+      "Participate in short conversations, make requests, and ask for clarification",
+      "Read short texts, emails, notices, and instructions; write simple paragraphs and messages"
     ],
     "includes": [
-      "Live online lessons",
-      "Practice activities",
-      "Lesson recordings",
-      "Tutor feedback"
+      "2–3 live classes per week",
+      "Recorded lessons for 24/7 revision",
+      "Interactive speaking role-plays and pronunciation practice",
+      "Writing feedback from tutors",
+      "Mock assessments, exam-style tasks, and progress reviews",
+      "Real-life topics: work, travel, health, daily problems"
     ],
-    "requirements": [
-      "A device with internet access",
-      "Notebook or digital note-taking"
+    "delivery": {
+      "durationWeeks": "4–6 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 60,
+      "recordings": "Unlimited revision access",
+      "format": "Live online tuition with interactive activities, role-plays, and personalised feedback"
+    },
+    "aims": [
+      "Communicate clearly in common social, work, and daily situations",
+      "Take part in short, straightforward conversations",
+      "Understand simple spoken instructions, explanations, and longer conversations",
+      "Read short, familiar texts and messages with confidence",
+      "Write short paragraphs, emails, and descriptions using basic grammar accurately"
     ],
-    "description": [
-      "ESOL Starter courses focus on foundational English skills with steady weekly progress.",
-      "Learners receive feedback and personalised guidance."
-    ],
-    "courseContent": [
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Talking about past experiences and daily routines",
+          "Making plans, arrangements, and polite requests/offers",
+          "Describing people, places, events, and responsibilities",
+          "Asking for help/clarification and handling telephone conversations",
+          "Participating in short, familiar interactions"
+        ],
+        "realLifeContexts": [
+          "Work and jobs",
+          "Daily life and routines",
+          "Travel, holidays, and services",
+          "Health and lifestyle",
+          "Everyday problems and solutions"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Understanding short articles, notices, emails, messages",
+          "Reading simple workplace texts, instructions, and leaflets",
+          "Identifying key information in familiar contexts"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Writing short paragraphs and descriptions",
+          "Composing simple emails, messages, and form-filling",
+          "Expressing basic experiences and opinions"
+        ]
+      },
+      "grammarFocus": [
+        "Present simple & present continuous",
+        "Past simple (regular & irregular verbs)",
+        "Future forms (going to, will – basic)",
+        "Countable/uncountable nouns",
+        "Comparatives & superlatives",
+        "Prepositions of time/place",
+        "Modal verbs (can, could, should – basic)",
+        "Connectors (and, but, because)"
+      ],
+      "vocabularyTopics": [
+        "Work and jobs",
+        "Travel and holidays",
+        "Health and lifestyle",
+        "Education and learning",
+        "Everyday problems and solutions",
+        "Family, shopping, routines"
+      ]
+    },
+    "modules": [
       {
-        "title": "Everyday English",
-        "lectures": 5,
-        "duration": "2h 10m"
+        "module": 1,
+        "title": "Review of A1 & Confidence Building",
+        "focus": "Revise basics, build speaking confidence, pronunciation practice",
+        "keySkills": [
+          "revision",
+          "fluency building",
+          "pronunciation"
+        ]
       },
       {
-        "title": "Reading & Writing Basics",
-        "lectures": 5,
-        "duration": "2h 20m"
+        "module": 2,
+        "title": "Talking About the Past",
+        "focus": "Use past simple to describe life events and experiences",
+        "keySkills": [
+          "past simple",
+          "storytelling basics",
+          "experiences"
+        ]
       },
       {
-        "title": "Speaking & Listening Practice",
-        "lectures": 4,
-        "duration": "1h 50m"
+        "module": 3,
+        "title": "Daily Life & Work",
+        "focus": "Present continuous and workplace English",
+        "keySkills": [
+          "present continuous",
+          "work vocabulary",
+          "daily routines"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Plans & Future",
+        "focus": "Talk about plans using going to and basic will",
+        "keySkills": [
+          "future forms",
+          "arrangements",
+          "planning"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Descriptions & Comparisons",
+        "focus": "Adjectives, comparatives, superlatives for describing",
+        "keySkills": [
+          "adjectives",
+          "comparisons",
+          "descriptions"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Health, Lifestyle & Advice",
+        "focus": "Health topics and basic modals (should/shouldn’t)",
+        "keySkills": [
+          "health vocabulary",
+          "advice language",
+          "lifestyle"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Travel & Services",
+        "focus": "Holidays, transport, booking, and services",
+        "keySkills": [
+          "travel vocabulary",
+          "requests",
+          "services"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Communication Skills",
+        "focus": "Telephone English, polite language, requests/offers",
+        "keySkills": [
+          "polite requests",
+          "telephone skills",
+          "clarification"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Reading & Writing Skills",
+        "focus": "Emails, short paragraphs, understanding simple texts",
+        "keySkills": [
+          "reading comprehension",
+          "email writing",
+          "paragraph structure"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Revision & Exam Practice",
+        "focus": "Mock tests, speaking practice, feedback, and strategies",
+        "keySkills": [
+          "exam technique",
+          "mock assessments",
+          "improvement plan"
+        ]
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Aligned preparation for ESOL A2 exams (e.g., LanguageCert International ESOL A2 Access, Trinity GESE Grade 3 SELT).",
+      "includes": [
+        "Speaking role-plays and interaction practice",
+        "Listening with clear, slow audio and real-life topics",
+        "Reading comprehension of short texts",
+        "Writing tasks (emails, paragraphs) with tutor feedback",
+        "Full mock exams and progress reviews",
+        "Guidance on UK ESOL exam booking and pathways"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve CEFR A2 communicative competence",
+      "Communicate confidently in simple everyday and work situations",
+      "Understand short spoken conversations and basic written texts",
+      "Write simple, connected texts for familiar needs",
+      "Be ready to progress to ESOL B1, Functional Skills English Level 1, or workplace English"
+    ],
+    "teachingApproach": [
+      "Clear, structured lessons with practical examples",
+      "Interactive speaking and listening activities",
+      "Regular feedback on speaking and writing",
+      "Recordings for flexible revision",
+      "Supportive, student-centred approach aligned to personal goals"
+    ],
+    "cta": {
+      "headline": "Ready to build confident everyday English at A2 level?",
+      "text": "Join our ESOL A2 course to improve fluency, prepare for exams, and take the next step in UK life and work."
+    }
   },
   {
-    "slug": "alevel-maths",
-    "title": "A-Level Maths: Pure + Mechanics",
-    "subtitle": "Core A-Level Maths coverage with structured revision.",
-    "category": "A-Level",
-    "rating": 4.6,
-    "reviews": "2,104",
-    "students": "610",
-    "level": "Years 12–13",
-    "duration": "14 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£26.99",
-    "oldPrice": "£34.99",
-    "badge": "Exam prep",
-    "instructor": "Mr. Oliver Grant",
-    "instructorTitle": "A-Level Maths Tutor",
-    "instructorBio": "Specialises in Pure and Mechanics with exam-focused practice.",
-    "whatYouLearn": [
-      "Master algebra, calculus, and mechanics",
-      "Apply exam techniques to timed questions",
-      "Improve problem solving accuracy",
-      "Prepare for A-Level exam papers"
-    ],
-    "includes": [
-      "Live lessons",
-      "Practice questions",
-      "Mock papers and feedback",
-      "Lesson recordings"
-    ],
-    "requirements": [
-      "GCSE Maths knowledge",
-      "Scientific calculator"
-    ],
-    "description": [
-      "A-Level Maths tuition covering core Pure and Mechanics topics aligned to UK exam boards.",
-      "Students receive targeted guidance and structured revision."
-    ],
-    "courseContent": [
-      {
-        "title": "Pure Maths Foundations",
-        "lectures": 8,
-        "duration": "4h 40m"
-      },
-      {
-        "title": "Mechanics Essentials",
-        "lectures": 6,
-        "duration": "3h 10m"
-      },
-      {
-        "title": "Exam Technique",
-        "lectures": 4,
-        "duration": "2h 0m"
-      }
-    ]
-  },
-  {
-    "slug": "gcse-science",
-    "title": "GCSE Science: Biology, Chemistry, Physics",
-    "subtitle": "Combined and separate sciences with exam practice.",
-    "category": "GCSE",
-    "rating": 4.7,
-    "reviews": "3,028",
-    "students": "710",
-    "level": "Years 10–11",
-    "duration": "12 weeks",
-    "language": "English",
-    "lastUpdated": "January 2026",
-    "price": "£28.99",
-    "oldPrice": "£36.99",
-    "badge": "Bundle",
-    "instructor": "Dr. Meera Joshi",
-    "instructorTitle": "GCSE Science Tutor",
-    "instructorBio": "Supports students across Biology, Chemistry, and Physics.",
-    "whatYouLearn": [
-      "Strengthen knowledge across all science topics",
-      "Apply exam technique for each paper",
-      "Complete regular quizzes and practice tasks",
-      "Track progress with topic checks"
-    ],
-    "includes": [
-      "Live lessons",
-      "Practice questions",
-      "Lesson recordings",
-      "Progress updates"
-    ],
-    "requirements": [
-      "Notebook or digital note-taking",
-      "Scientific calculator"
-    ],
-    "description": [
-      "GCSE Science tuition covering combined science and separate sciences.",
-      "Students receive clear guidance and exam-ready practice."
-    ],
-    "courseContent": [
-      {
-        "title": "Biology Core",
-        "lectures": 6,
-        "duration": "3h 0m"
-      },
-      {
-        "title": "Chemistry Core",
-        "lectures": 6,
-        "duration": "3h 10m"
-      },
-      {
-        "title": "Physics Core",
-        "lectures": 6,
-        "duration": "3h 5m"
-      }
-    ]
-  },
-  {
-    "slug": "gcse-intensive",
-    "title": "GCSE Intensive Revision Track",
-    "subtitle": "Fast-paced revision for exam confidence.",
-    "category": "GCSE",
+    "id": "functional-skills-english-level-1",
+    "slug": "functional-skills-english-level-1",
+    "title": "Functional Skills English – Level 1",
+    "subtitle": "Practical English skills for work, daily life, and progression in the UK.",
+    "category": "Functional Skills",
+    "badge": "Foundation",
+    "image": "/images/courses/f-1.jpg",
     "rating": 4.8,
-    "reviews": "7,402",
-    "students": "980",
-    "level": "Years 10–11",
-    "duration": "8 weeks",
+    "reviews": "5,420",
+    "students": "1,250",
+    "level": "Level 1 (equivalent to GCSE Grades 1–3)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£31.99",
-    "oldPrice": "£41.99",
-    "badge": "Trending",
-    "instructor": "Mr. Liam O’Connor",
-    "instructorTitle": "GCSE Tutor",
-    "instructorBio": "Focuses on targeted revision and exam technique.",
+    "price": "£18/week or £150–£170 full course",
+    "oldPrice": null,
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "A2–B1 threshold",
+      "standards": [
+        "UK Functional Skills Level 1 subject content (DfE)",
+        "Ofqual-regulated qualification",
+        "Accepted for apprenticeships, jobs, and progression to Level 2"
+      ]
+    },
+    "instructor": {
+      "name": "English Skills Team",
+      "title": "Qualified Functional Skills Tutors",
+      "bio": "Experienced tutors specialising in practical, real-world English for adults returning to education, job seekers, and apprentices."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "Basic English (Entry Level 3 or equivalent)",
+      "entryRequirementText": "You should have basic reading, writing, and speaking ability in everyday English.",
+      "prerequisites": [
+        "Short initial assessment to confirm level",
+        "Device with internet access",
+        "Willingness to participate in discussions and tasks"
+      ]
+    },
+    "whoItsFor": [
+      "Adults returning to education",
+      "Learners who did not achieve GCSE English (or equivalent)",
+      "Job seekers, apprentices, and career changers",
+      "Those needing English for work, training, or daily life",
+      "Learners preparing to progress to Functional Skills English Level 2"
+    ],
+    "overview": [
+      "This Functional Skills English Level 1 course builds essential reading, writing, speaking, listening, and communication skills for real-life situations in work, education, and everyday UK life.",
+      "The focus is practical English – not theory – helping learners communicate clearly and confidently.",
+      "It is a nationally recognised UK qualification accepted by employers, colleges, training providers, and apprenticeship programmes."
+    ],
     "whatYouLearn": [
-      "Rapid revision of key topics",
-      "Timed practice and feedback",
-      "Boost confidence ahead of exams",
-      "Clear plan for final weeks"
+      "Read and understand straightforward texts like emails, notices, and instructions",
+      "Write clear sentences, short paragraphs, emails, and forms with correct spelling, punctuation, and grammar",
+      "Speak and listen effectively in discussions and everyday interactions",
+      "Express ideas clearly and respond appropriately in work and social contexts",
+      "Build confidence for real-life communication and exam success"
     ],
     "includes": [
-      "Live revision sessions",
-      "Practice papers",
-      "Exam tips and feedback",
-      "Lesson recordings"
+      "2–3 live online classes per week",
+      "Recorded lessons for flexible revision",
+      "Personalised feedback on writing and speaking",
+      "Practice tasks, mock exams, and exam technique guidance",
+      "Real-life scenarios across workplace, daily routines, and basic services"
     ],
-    "requirements": [
-      "Basic GCSE knowledge",
-      "Notebook or digital note-taking"
+    "delivery": {
+      "durationWeeks": "12–14 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 60,
+      "recordings": "Unlimited access to recordings",
+      "format": "Live online classes with interactive practice, scenarios, and tutor support"
+    },
+    "aims": [
+      "Communicate clearly in everyday and work-related situations",
+      "Read and understand straightforward texts with main ideas and details",
+      "Write accurate short texts for different purposes and audiences",
+      "Participate confidently in discussions and respond appropriately",
+      "Prepare effectively for the Functional Skills English Level 1 exams"
     ],
-    "description": [
-      "An intensive revision track to prepare students for exam season.",
-      "Sessions focus on exam technique and timed practice."
-    ],
-    "courseContent": [
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Taking part in discussions and expressing ideas clearly",
+          "Listening and responding appropriately",
+          "Asking and answering questions",
+          "Using suitable language and tone in work and social settings",
+          "Communicating effectively in familiar situations"
+        ],
+        "realLifeContexts": [
+          "Workplace instructions and conversations",
+          "Daily interactions and services",
+          "Basic job-related discussions",
+          "Following simple spoken information"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Understanding straightforward texts (emails, letters, notices, instructions)",
+          "Identifying main points and key details",
+          "Recognising purpose, audience, and vocabulary in context"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Writing clear sentences and short paragraphs",
+          "Using correct spelling, punctuation, and grammar",
+          "Producing emails, messages, forms, and simple texts",
+          "Organising ideas logically for different purposes"
+        ]
+      },
+      "grammarFocus": [
+        "Basic sentence structure and tenses (present, past, simple future)",
+        "Common punctuation and spelling rules",
+        "Simple linking words (and, but, because, so)",
+        "Question forms and basic modals"
+      ],
+      "vocabularyTopics": [
+        "Work and employment basics",
+        "Daily life and routines",
+        "Shopping, travel, and services",
+        "Health and wellbeing",
+        "Simple workplace and community language"
+      ]
+    },
+    "modules": [
       {
-        "title": "Key Topics Review",
-        "lectures": 6,
-        "duration": "3h 0m"
+        "module": 1,
+        "title": "Building Core Skills",
+        "focus": "Review basics and build confidence in communication",
+        "keySkills": [
+          "everyday language",
+          "simple discussions",
+          "basic reading strategies"
+        ]
       },
       {
-        "title": "Timed Practice",
-        "lectures": 4,
-        "duration": "2h 0m"
+        "module": 2,
+        "title": "Reading Everyday Texts",
+        "focus": "Understand instructions, notices, and short documents",
+        "keySkills": [
+          "main ideas",
+          "key details",
+          "purpose and audience"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Writing Clearly",
+        "focus": "Produce accurate sentences and short texts",
+        "keySkills": [
+          "spelling & punctuation",
+          "simple paragraphs",
+          "emails and messages"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Speaking & Listening at Work",
+        "focus": "Participate in straightforward conversations",
+        "keySkills": [
+          "asking questions",
+          "responding",
+          "work-related talk"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Real-Life Scenarios",
+        "focus": "Apply skills to daily and workplace situations",
+        "keySkills": [
+          "practical tasks",
+          "forms and instructions"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Exam Practice & Techniques",
+        "focus": "Mock exams, feedback, and confidence building",
+        "keySkills": [
+          "timed tasks",
+          "exam strategies",
+          "revision"
+        ]
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Full preparation for the official Functional Skills English Level 1 exams (reading, writing, speaking & listening).",
+      "includes": [
+        "Reading comprehension practice",
+        "Writing tasks with detailed feedback",
+        "Speaking & listening assessments",
+        "Full mock exams under exam conditions",
+        "Exam booking guidance with approved bodies (e.g., Pearson Edexcel, NCFE, City & Guilds)"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve the nationally recognised Functional Skills English Level 1 qualification",
+      "Communicate confidently in everyday and basic work situations",
+      "Read and understand straightforward real-life texts",
+      "Write clear, accurate short texts for common purposes",
+      "Be well-prepared to progress to Functional Skills English Level 2 (GCSE Grade 4/C equivalent)"
+    ],
+    "teachingApproach": [
+      "Practical, hands-on lessons with real-life examples",
+      "Interactive group activities and discussions",
+      "Regular personalised feedback",
+      "Flexible recordings and practice resources",
+      "Support tailored to adult learners' goals"
+    ],
+    "cta": {
+      "headline": "Ready to build practical English skills for life and work in the UK?",
+      "text": "Gain a recognised Level 1 qualification and take the first step toward Level 2 and better opportunities."
+    }
   },
   {
-    "slug": "esol-advanced",
-    "title": "ESOL Advanced: Level 1 & 2",
-    "subtitle": "Advanced language skills for study and work.",
-    "category": "ESOL",
-    "rating": 4.7,
-    "reviews": "4,210",
-    "students": "520",
-    "level": "Level 1 & 2",
-    "duration": "10 weeks",
+    "id": "functional-skills-english-level-2",
+    "slug": "functional-skills-english-level-2",
+    "title": "Functional Skills English – Level 2",
+    "subtitle": "Advanced practical English for work, study, and professional life in the UK. Equivalent to GCSE Grade 4 (C).",
+    "category": "Functional Skills",
+    "badge": "Popular",
+    "image": "/images/courses/f-2.jpg",
+    "rating": 4.9,
+    "reviews": "12,340",
+    "students": "2,150",
+    "level": "Level 2 (equivalent to GCSE Grade 4/C)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£21.99",
-    "oldPrice": "£27.99",
-    "badge": "Trending",
-    "instructor": "Ms. Sofia Mendes",
-    "instructorTitle": "ESOL Tutor",
-    "instructorBio": "Supports learners advancing to Level 1 and Level 2 outcomes.",
+    "price": "£20/week or £180–£200 full course",
+    "oldPrice": null,
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "B2 threshold (Independent User)",
+      "standards": [
+        "UK Functional Skills Level 2 subject content (DfE/Ofqual)",
+        "Regulated qualification accepted as GCSE alternative",
+        "Widely recognised for jobs, apprenticeships, universities, and further education"
+      ]
+    },
+    "instructor": {
+      "name": "Advanced English Skills Team",
+      "title": "Qualified Functional Skills Tutors",
+      "bio": "Experienced tutors specialising in Level 2 practical English, focusing on professional communication, exam success, and real-world application for adults and apprentices."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "Functional Skills Level 1 (or equivalent)",
+      "entryRequirementText": "You should have solid Level 1 skills or equivalent, with confidence in basic reading, writing, and communication.",
+      "prerequisites": [
+        "Completion of Functional Skills Level 1 or short initial assessment",
+        "Device with internet access",
+        "Commitment to participate in discussions and written tasks"
+      ]
+    },
+    "whoItsFor": [
+      "Learners who have completed Functional Skills English Level 1",
+      "Adults who did not achieve GCSE English (or need a recognised alternative)",
+      "Job seekers, apprentices, and career professionals",
+      "Those requiring Level 2 for jobs, training, regulated roles, or further education",
+      "Anyone aiming to build confidence in professional and academic English"
+    ],
+    "overview": [
+      "This Functional Skills English Level 2 course develops strong, practical English skills for effective communication in work, education, and everyday UK life.",
+      "Emphasis on real-life application: handling complex texts, structured writing, persuasive speaking, and professional interactions.",
+      "Nationally recognised UK qualification, equivalent to GCSE English Grade 4 (C), accepted by employers, colleges, universities, and apprenticeship providers."
+    ],
     "whatYouLearn": [
-      "Develop confidence in speaking and writing",
-      "Improve exam performance at Level 1 & 2",
-      "Strengthen reading and listening skills",
-      "Prepare for ESOL assessments"
+      "Read and analyse complex texts, identifying implicit meaning and comparing sources",
+      "Write structured, accurate texts (emails, reports, letters, articles) adapted to audience and purpose",
+      "Lead discussions, present ideas persuasively, and respond effectively",
+      "Use appropriate tone, register, and vocabulary in professional contexts",
+      "Master exam techniques for confident success in Functional Skills Level 2 assessments"
     ],
     "includes": [
-      "Live lessons",
-      "Practice tasks",
-      "Lesson recordings",
-      "Tutor feedback"
+      "2–3 live online classes per week",
+      "Recorded lessons for unlimited revision",
+      "Detailed feedback on writing and speaking tasks",
+      "Mock exams, timed practice, and progress reviews",
+      "Real-world tasks in professional, academic, and workplace scenarios"
     ],
-    "requirements": [
-      "Entry-level ESOL knowledge",
-      "Notebook or digital note-taking"
+    "delivery": {
+      "durationWeeks": "12–14 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 60,
+      "recordings": "Unlimited access to recordings",
+      "format": "Live online interactive classes with practical tasks, discussions, and personalised tutor support"
+    },
+    "aims": [
+      "Communicate clearly, confidently, and effectively in professional and daily situations",
+      "Read and understand complex texts, including reports, articles, and documents",
+      "Produce well-structured, purposeful written texts with accuracy",
+      "Participate in and lead discussions, expressing opinions persuasively",
+      "Achieve success in the Functional Skills English Level 2 exams"
     ],
-    "description": [
-      "ESOL Advanced supports learners preparing for higher-level assessments.",
-      "Lessons focus on fluency, accuracy, and exam preparation."
-    ],
-    "courseContent": [
+    "curriculum": {
+      "speakingListening": {
+        "skills": [
+          "Leading and contributing to discussions",
+          "Expressing and justifying opinions persuasively",
+          "Presenting information clearly",
+          "Responding appropriately and adapting to others",
+          "Using suitable tone, register, and non-verbal cues in professional settings"
+        ],
+        "realLifeContexts": [
+          "Workplace meetings and presentations",
+          "Job interviews and professional discussions",
+          "Customer service and negotiations",
+          "Academic or training group work",
+          "Public services and community interactions"
+        ]
+      },
+      "reading": {
+        "skills": [
+          "Understanding complex texts and implicit meaning",
+          "Identifying main ideas, details, bias, and purpose",
+          "Comparing information from multiple sources",
+          "Interpreting vocabulary, tone, and presentational features"
+        ]
+      },
+      "writing": {
+        "skills": [
+          "Producing structured texts for varied purposes",
+          "Accurate spelling, punctuation, grammar, and organisation",
+          "Writing emails, reports, letters, articles, and arguments",
+          "Adapting style, tone, and language to audience and context"
+        ]
+      },
+      "grammarFocus": [
+        "Complex sentence structures and varied tenses",
+        "Advanced punctuation (e.g., semicolons, colons, dashes)",
+        "Conditionals, passives, and reported speech",
+        "Linking words for coherence (however, therefore, although, moreover)",
+        "Modal verbs for speculation, obligation, and advice"
+      ],
+      "vocabularyTopics": [
+        "Professional and workplace communication",
+        "Education, training, and career development",
+        "Current affairs, media, and society",
+        "Health, environment, and technology",
+        "Formal correspondence and reports"
+      ]
+    },
+    "modules": [
       {
-        "title": "Advanced Speaking & Listening",
-        "lectures": 5,
-        "duration": "2h 10m"
+        "module": 1,
+        "title": "Core Skill Review & Professional Communication",
+        "focus": "Build on Level 1 foundations with focus on tone, register, and workplace English",
+        "keySkills": [
+          "review",
+          "professional language",
+          "discussion basics"
+        ]
       },
       {
-        "title": "Advanced Reading & Writing",
-        "lectures": 5,
-        "duration": "2h 30m"
+        "module": 2,
+        "title": "Reading Complex Texts",
+        "focus": "Analyse articles, reports, and documents for meaning and bias",
+        "keySkills": [
+          "inference",
+          "comparison",
+          "source evaluation"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Structured Writing",
+        "focus": "Write clear, organised texts with purpose and audience in mind",
+        "keySkills": [
+          "paragraphing",
+          "formal writing",
+          "accuracy"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Discussions & Presentations",
+        "focus": "Lead and contribute persuasively in group and one-to-one settings",
+        "keySkills": [
+          "opinions",
+          "presenting",
+          "responding"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Real-World Professional Scenarios",
+        "focus": "Apply skills to job interviews, meetings, emails, and reports",
+        "keySkills": [
+          "workplace tasks",
+          "adaptation"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Advanced Grammar & Vocabulary",
+        "focus": "Refine complex structures and topic-specific language",
+        "keySkills": [
+          "grammar precision",
+          "vocabulary expansion"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Exam Preparation & Mock Assessments",
+        "focus": "Timed practice, strategies, and full mocks with feedback",
+        "keySkills": [
+          "exam technique",
+          "confidence building",
+          "revision planning"
+        ]
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Comprehensive preparation for official Functional Skills English Level 2 exams (reading, writing, speaking & listening).",
+      "includes": [
+        "Complex reading analysis and comprehension practice",
+        "Writing tasks (emails, reports, articles) with detailed feedback",
+        "Speaking & listening assessments including discussions and presentations",
+        "Full mock exams under timed conditions",
+        "Exam booking guidance with approved awarding bodies (e.g., Pearson Edexcel, NCFE, City & Guilds)"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve the nationally recognised Functional Skills English Level 2 qualification",
+      "Communicate confidently and professionally in work, study, and daily life",
+      "Read, analyse, and compare complex real-life texts effectively",
+      "Write accurate, structured texts suited to purpose and audience",
+      "Meet English requirements for jobs, apprenticeships, universities, and further progression"
+    ],
+    "teachingApproach": [
+      "Live online classes with clear, structured delivery",
+      "Practical real-world tasks and interactive discussions",
+      "Regular personalised feedback on speaking and writing",
+      "Recorded lessons for flexible revision",
+      "Learner-centred support focused on professional and exam goals"
+    ],
+    "cta": {
+      "headline": "Ready to achieve GCSE-equivalent English skills for your career?",
+      "text": "Secure your place in Functional Skills Level 2 and unlock better job, apprenticeship, and education opportunities in the UK."
+    }
   },
   {
-    "slug": "alevel-essay",
-    "title": "A-Level English: Essay & Analysis",
-    "subtitle": "Advanced essay writing and exam analysis.",
-    "category": "A-Level",
-    "rating": 4.7,
-    "reviews": "3,214",
-    "students": "530",
-    "level": "Years 12–13",
-    "duration": "12 weeks",
+    "id": "functional-skills-maths-level-1",
+    "slug": "functional-skills-mathematics-level-1",
+    "title": "Functional Skills Mathematics – Level 1",
+    "subtitle": "Practical maths skills for everyday life, work, and progression in the UK. Equivalent to GCSE Grades 1–3.",
+    "category": "Functional Skills",
+    "badge": "Foundation",
+    "image": "/images/courses/f-m-1.jpg",
+    "rating": 4.8,
+    "reviews": "4,850",
+    "students": "1,120",
+    "level": "Level 1 (equivalent to GCSE Grades 1–3)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£23.99",
-    "oldPrice": "£29.99",
-    "badge": "Top rated",
-    "instructor": "Mr. Thomas Reed",
-    "instructorTitle": "A-Level English Tutor",
-    "instructorBio": "Guides students through advanced writing and analysis skills.",
+    "price": "£18/week or £150–£170 full course",
+    "oldPrice": null,
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "N/A (Maths-focused; foundational practical numeracy)",
+      "standards": [
+        "UK Functional Skills Level 1 subject content (DfE/Ofqual)",
+        "Regulated qualification for work, study, and life",
+        "Accepted for apprenticeships, jobs, and progression to Level 2"
+      ]
+    },
+    "instructor": {
+      "name": "Maths Skills Team",
+      "title": "Qualified Functional Skills Maths Tutors",
+      "bio": "Experienced tutors specialising in practical, real-world maths for adults returning to education, job seekers, apprentices, and those building numeracy confidence."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "Basic numeracy (Entry Level 3 or equivalent)",
+      "entryRequirementText": "You should have basic number skills and be comfortable with simple calculations.",
+      "prerequisites": [
+        "Short initial assessment to confirm level",
+        "Device with internet access and calculator",
+        "Willingness to engage in problem-solving tasks"
+      ]
+    },
+    "whoItsFor": [
+      "Adults returning to education",
+      "Learners who did not achieve GCSE Maths",
+      "Job seekers, apprentices, and career changers",
+      "Those needing maths for work, training, budgeting, or daily tasks",
+      "Learners preparing to progress to Functional Skills Mathematics Level 2"
+    ],
+    "overview": [
+      "This Functional Skills Mathematics Level 1 course builds essential numeracy skills for real-life situations in work, education, and everyday UK life.",
+      "Focus on practical application: using numbers, measures, data, and problem-solving in contexts like budgeting, measuring, and interpreting information.",
+      "Nationally recognised UK qualification, equivalent to GCSE Grades 1–3, accepted by employers, colleges, training providers, and apprenticeship programmes."
+    ],
     "whatYouLearn": [
-      "Structure analytical essays confidently",
-      "Improve exam responses with evidence",
-      "Apply critical reading strategies",
-      "Refine writing under time constraints"
+      "Perform calculations with whole numbers, fractions, decimals, and percentages",
+      "Use measures for time, money, length, weight, capacity, perimeter, and area",
+      "Interpret and create tables, charts, graphs, and calculate averages",
+      "Solve multi-step real-life problems and check answers for accuracy",
+      "Apply maths confidently with and without a calculator for exam and everyday success"
     ],
     "includes": [
-      "Live lessons",
-      "Essay feedback",
-      "Practice prompts",
-      "Lesson recordings"
+      "2–3 live online classes per week (90-minute sessions)",
+      "Recorded lessons for flexible revision",
+      "Step-by-step worked examples and personalised feedback",
+      "Practice tests, mock exams (calculator & non-calculator), and progress reviews",
+      "Real-life scenarios: budgeting, workplace measurements, data interpretation"
     ],
-    "requirements": [
-      "GCSE English knowledge",
-      "Notebook or digital note-taking"
+    "delivery": {
+      "durationWeeks": "12–14 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 90,
+      "recordings": "Unlimited access to recordings",
+      "format": "Live online interactive classes with explanations, practice, real-life tasks, and tutor support"
+    },
+    "aims": [
+      "Use mathematics confidently in practical, everyday, and work-related situations",
+      "Solve problems involving numbers, measures, and data",
+      "Interpret information from tables, charts, and graphs",
+      "Apply appropriate methods and check results for accuracy",
+      "Prepare effectively for the Functional Skills Mathematics Level 1 exam"
     ],
-    "description": [
-      "A-Level English tuition focused on essays and analysis aligned with exam criteria.",
-      "Students receive detailed feedback and revision guidance."
-    ],
-    "courseContent": [
+    "curriculum": {
+      "numberSkills": {
+        "skills": [
+          "Whole numbers: read, write, order, compare, add, subtract, multiply, divide",
+          "Fractions, decimals, percentages: calculate, convert, use in contexts",
+          "Place value, rounding, estimating",
+          "BIDMAS/BODMAS operations",
+          "Effective calculator use"
+        ],
+        "realLifeContexts": [
+          "Budgeting and bills",
+          "Wages and discounts",
+          "Shopping and measurements"
+        ]
+      },
+      "measuresShapeSpace": {
+        "skills": [
+          "Time: calculate durations, read timetables",
+          "Money: handle transactions, budgeting",
+          "Units: convert length, weight, capacity",
+          "Perimeter, area of simple shapes",
+          "Basic geometry: recognise shapes, angles"
+        ]
+      },
+      "handlingData": {
+        "skills": [
+          "Collect, organise, and represent data in tables/charts/graphs",
+          "Calculate mean (average)",
+          "Interpret data and draw conclusions",
+          "Use data for simple decisions"
+        ]
+      },
+      "problemSolving": {
+        "skills": [
+          "Identify steps in multi-step problems",
+          "Choose appropriate methods and tools",
+          "Check answers for reasonableness",
+          "Apply maths in familiar contexts"
+        ]
+      },
+      "grammarFocus": [],
+      "vocabularyTopics": [
+        "Numeracy terms (fraction, percentage, average, perimeter)",
+        "Everyday maths (budget, timetable, measurement units)",
+        "Workplace applications (data, calculations, estimates)"
+      ]
+    },
+    "modules": [
       {
-        "title": "Essay Structure & Argument",
-        "lectures": 6,
-        "duration": "3h 0m"
+        "module": 1,
+        "title": "Core Number Skills",
+        "focus": "Master whole numbers, operations, place value, and calculator use",
+        "keySkills": [
+          "addition/subtraction/multiplication/division",
+          "rounding & estimating",
+          "BIDMAS"
+        ]
       },
       {
-        "title": "Textual Analysis",
-        "lectures": 5,
-        "duration": "2h 40m"
+        "module": 2,
+        "title": "Fractions, Decimals & Percentages",
+        "focus": "Work with common fractions, decimals, percentages in real contexts",
+        "keySkills": [
+          "conversions",
+          "calculations",
+          "discounts & increases"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Measures & Money",
+        "focus": "Handle time, money, units, and basic budgeting",
+        "keySkills": [
+          "time calculations",
+          "money problems",
+          "unit conversions"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Shape, Space & Perimeter/Area",
+        "focus": "Understand shapes, perimeter, area, and simple geometry",
+        "keySkills": [
+          "perimeter & area",
+          "shape recognition"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Handling Data & Averages",
+        "focus": "Collect, represent, and interpret data effectively",
+        "keySkills": [
+          "tables/charts/graphs",
+          "mean average",
+          "data interpretation"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Problem Solving & Exam Practice",
+        "focus": "Apply skills to multi-step problems, check work, and prepare for exams",
+        "keySkills": [
+          "real-life scenarios",
+          "mock exams",
+          "techniques & confidence"
+        ]
       }
-    ]
+    ],
+    "assessmentPrep": {
+      "focus": "Full preparation for the official Functional Skills Mathematics Level 1 exam (single paper, calculator & non-calculator sections).",
+      "includes": [
+        "Topic revision and exam-style questions",
+        "Timed mock exams with feedback",
+        "Calculator and non-calculator practice",
+        "Problem-solving strategies and error checking",
+        "Exam booking guidance with approved awarding bodies (e.g., Pearson Edexcel, NCFE, City & Guilds)"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve the nationally recognised Functional Skills Mathematics Level 1 qualification",
+      "Use maths confidently in work, budgeting, measuring, and daily decisions",
+      "Interpret and handle data to support informed choices",
+      "Solve practical problems accurately and check results",
+      "Be well-prepared to progress to Functional Skills Mathematics Level 2 (GCSE Grade 4/C equivalent)"
+    ],
+    "teachingApproach": [
+      "Live online classes with clear, step-by-step explanations",
+      "Practical real-life examples and interactive problem-solving",
+      "Regular practice and personalised feedback",
+      "Recorded lessons for flexible revision",
+      "Supportive environment tailored to adult learners' needs"
+    ],
+    "cta": {
+      "headline": "Ready to build practical maths skills for work and life in the UK?",
+      "text": "Gain a recognised Level 1 qualification and take the first step toward Level 2 and improved opportunities."
+    }
+  },
+  {
+    "id": "functional-skills-maths-level-2",
+    "slug": "functional-skills-mathematics-level-2",
+    "title": "Functional Skills Mathematics – Level 2",
+    "subtitle": "Advanced practical maths for work, apprenticeships, and further education in the UK. Equivalent to GCSE Grade 4 (C).",
+    "category": "Functional Skills",
+    "badge": "Popular",
+    "image": "/images/courses/f-m-3.jpg",
+    "rating": 4.9,
+    "reviews": "7,920",
+    "students": "1,850",
+    "level": "Level 2 (equivalent to GCSE Grade 4/C)",
+    "language": "English",
+    "lastUpdated": "January 2026",
+    "price": "£20/week or £180–£200 full course",
+    "oldPrice": null,
+    "provider": {
+      "name": "Britskill Academy",
+      "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
+    },
+    "alignment": {
+      "cefr": "N/A (Maths-focused; upper-intermediate practical numeracy)",
+      "standards": [
+        "UK Functional Skills Level 2 subject content (DfE/Ofqual)",
+        "Regulated qualification accepted as GCSE alternative",
+        "Widely recognised for jobs, apprenticeships, universities, and further education"
+      ]
+    },
+    "instructor": {
+      "name": "Advanced Maths Skills Team",
+      "title": "Qualified Functional Skills Maths Tutors",
+      "bio": "Experienced tutors specialising in Level 2 practical maths, focusing on workplace applications, data analysis, problem-solving, and exam success for adults, apprentices, and career professionals."
+    },
+    "entryRequirements": {
+      "recommendedPriorLevel": "Functional Skills Maths Level 1 (or equivalent)",
+      "entryRequirementText": "You should have solid Level 1 numeracy skills or equivalent, with confidence in basic calculations, fractions, and measures.",
+      "prerequisites": [
+        "Completion of Functional Skills Level 1 or short initial assessment",
+        "Device with internet access and scientific calculator",
+        "Commitment to multi-step problem-solving"
+      ]
+    },
+    "whoItsFor": [
+      "Learners who have completed Functional Skills Maths Level 1",
+      "Adults who did not achieve GCSE Maths (or need a recognised alternative)",
+      "Job seekers, apprentices, and professionals requiring Level 2 for roles or progression",
+      "Those needing maths for further education, training, or regulated professions",
+      "Anyone building advanced practical maths confidence for real-world use"
+    ],
+    "overview": [
+      "This Functional Skills Mathematics Level 2 course develops confident, practical maths skills for workplace, further study, and everyday UK life.",
+      "Emphasis on applying maths to complex real-life problems: advanced calculations, data interpretation, financial maths, measurements, and reasoned decision-making.",
+      "Nationally recognised UK qualification, equivalent to GCSE Maths Grade 4 (C), accepted by employers, colleges, universities, and apprenticeship providers."
+    ],
+    "whatYouLearn": [
+      "Handle fractions, decimals, percentages, ratios, proportions, and percentage changes accurately",
+      "Work with measures: conversions, scale drawings, perimeter/area/volume, speed/distance/time",
+      "Analyse data: averages (mean/median/mode), probability basics, charts/graphs interpretation",
+      "Solve multi-step problems in financial, workplace, and practical contexts with estimation and checking",
+      "Master exam techniques for success in Functional Skills Maths Level 2 assessments"
+    ],
+    "includes": [
+      "2–3 live online classes per week (90-minute sessions)",
+      "Recorded lessons for unlimited revision",
+      "Step-by-step examples, personalised feedback on problem-solving",
+      "Timed mock exams (calculator & non-calculator), practice questions, progress reviews",
+      "Real-world scenarios: budgeting, business data, measurements, workplace decisions"
+    ],
+    "delivery": {
+      "durationWeeks": "12–14 weeks",
+      "sessionsPerWeek": "2–3",
+      "lessonLengthMinutes": 90,
+      "recordings": "Unlimited access to recordings",
+      "format": "Live online interactive classes with clear explanations, practical tasks, problem-solving, and tutor support"
+    },
+    "aims": [
+      "Solve complex real-life mathematical problems confidently",
+      "Apply mathematical reasoning and methods in work and daily contexts",
+      "Interpret, analyse, and compare data accurately to inform decisions",
+      "Use advanced number, measure, and data skills with accuracy and efficiency",
+      "Prepare effectively for the Functional Skills Mathematics Level 2 exam"
+    ],
+    "curriculum": {
+      "numberSkills": {
+        "skills": [
+          "Work with numbers of any size, including negative integers",
+          "Fractions, decimals, percentages: equivalences, calculations, percentage change/increase/decrease",
+          "Ratios, direct/inverse proportion",
+          "Order of operations (BIDMAS/BODMAS with indices)",
+          "Effective calculator use and accuracy checking"
+        ],
+        "realLifeContexts": [
+          "Financial calculations (wages, bills, budgets, discounts)",
+          "Business proportions and scaling"
+        ]
+      },
+      "measuresShapeSpace": {
+        "skills": [
+          "Convert units (length, weight, capacity, time)",
+          "Calculate perimeter, area, volume of 2D/3D shapes",
+          "Scale drawings, maps, and plans",
+          "Speed, distance, time problems",
+          "Angles, basic geometry, and measurement interpretation"
+        ]
+      },
+      "handlingData": {
+        "skills": [
+          "Collect, organise, represent data in tables/charts/graphs",
+          "Calculate mean, median, mode, range",
+          "Interpret/compare data sets and draw conclusions",
+          "Basic probability in real contexts",
+          "Use data for reasoned decisions"
+        ]
+      },
+      "problemSolving": {
+        "skills": [
+          "Multi-step calculations and complex problems",
+          "Choose appropriate methods, estimate, check answers",
+          "Apply maths logically to workplace/financial scenarios",
+          "Interpret results and justify approaches"
+        ]
+      },
+      "grammarFocus": [],
+      "vocabularyTopics": [
+        "Advanced numeracy (ratio, proportion, median, probability)",
+        "Workplace maths (scale, volume, averages)",
+        "Financial and data terms (percentage change, inverse proportion)"
+      ]
+    },
+    "modules": [
+      {
+        "module": 1,
+        "title": "Advanced Number & Calculations",
+        "focus": "Master fractions, decimals, percentages, ratios, and complex operations",
+        "keySkills": [
+          "equivalences & conversions",
+          "percentage change",
+          "ratios & proportions"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Measures & Geometry",
+        "focus": "Handle units, scale, area/volume, and speed/distance/time",
+        "keySkills": [
+          "conversions",
+          "scale drawings",
+          "perimeter/area/volume"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Data Handling & Averages",
+        "focus": "Interpret charts, calculate averages, and compare data",
+        "keySkills": [
+          "mean/median/mode",
+          "graphs & tables",
+          "data comparison"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Probability & Decision Making",
+        "focus": "Apply basic probability and use data for practical decisions",
+        "keySkills": [
+          "probability contexts",
+          "informed choices"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Financial & Workplace Maths",
+        "focus": "Solve budgeting, wages, bills, and business problems",
+        "keySkills": [
+          "multi-step financials",
+          "real-world applications"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Problem Solving & Exam Mastery",
+        "focus": "Tackle multi-step problems, strategies, and full mocks",
+        "keySkills": [
+          "estimation & checking",
+          "exam techniques",
+          "timed practice"
+        ]
+      }
+    ],
+    "assessmentPrep": {
+      "focus": "Comprehensive preparation for official Functional Skills Mathematics Level 2 exam (non-calculator & calculator sections).",
+      "includes": [
+        "Topic revision and exam-style questions",
+        "Timed mock exams with detailed feedback",
+        "Calculator/non-calculator techniques",
+        "Problem-solving strategies, error checking, and confidence building",
+        "Exam booking guidance with approved awarding bodies (e.g., Pearson Edexcel, NCFE, City & Guilds)"
+      ]
+    },
+    "learningOutcomes": [
+      "Achieve the nationally recognised Functional Skills Mathematics Level 2 qualification",
+      "Apply maths confidently to complex work, financial, and everyday problems",
+      "Analyse and interpret data accurately to support decisions",
+      "Solve multi-step practical problems with reasoning and accuracy",
+      "Meet maths requirements for jobs, apprenticeships, universities, and further progression"
+    ],
+    "teachingApproach": [
+      "Live online classes with clear, step-by-step teaching",
+      "Practical real-world examples and interactive problem-solving",
+      "Regular personalised feedback and progress checks",
+      "Recorded lessons for flexible revision",
+      "Supportive, learner-focused environment for adult and professional goals"
+    ],
+    "cta": {
+      "headline": "Ready to achieve GCSE-equivalent maths skills for your career?",
+      "text": "Enrol in Functional Skills Level 2 and unlock better job, apprenticeship, and education opportunities in the UK."
+    }
   }
 ]

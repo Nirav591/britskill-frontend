@@ -1,175 +1,37 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import Image from "next/image";
+import { useMemo, useState } from "react";
+import courses from "@/app/data/courses.json";
 
 type Course = {
-  id: string;
   slug: string;
   title: string;
-  instructor: string;
+  category: string; // ✅ required for tabs
+  instructor: {
+    name: string;
+    title: string;
+    bio: string;
+  };
   rating: number;
   reviews: string;
   price: string;
   oldPrice?: string;
-  badges: string[];
-  theme: string;
+  badge?: string;
+  image?: string;
 };
 
-const tabs = ["Most popular", "New", "Trending"] as const;
-
-const courses: Record<(typeof tabs)[number], Course[]> = {
-  "Most popular": [
-    {
-      id: "gcse-maths",
-      slug: "gcse-maths",
-      title: "GCSE Maths Mastery: Foundation & Higher",
-      instructor: "Mrs. Patel, Lead Maths Tutor",
-      rating: 4.8,
-      reviews: "12,480",
-      price: "£29.99",
-      oldPrice: "£39.99",
-      badges: ["Premium", "Bestseller"],
-      theme: "from-[#4733b3] via-[#5e3ddb] to-[#8c5cf6]",
-    },
-    {
-      id: "alevel-chem",
-      slug: "alevel-chem",
-      title: "A-Level Chemistry: Exam-Focused Live Tuition",
-      instructor: "Dr. James Carter",
-      rating: 4.7,
-      reviews: "6,902",
-      price: "£24.99",
-      oldPrice: "£34.99",
-      badges: ["Premium", "Bestseller"],
-      theme: "from-[#e05a6f] via-[#f06a80] to-[#ff8aa0]",
-    },
-    {
-      id: "gcse-eng",
-      slug: "gcse-eng",
-      title: "GCSE English Language: Writing & Analysis",
-      instructor: "Ms. Angela Yu",
-      rating: 4.8,
-      reviews: "18,211",
-      price: "£27.99",
-      oldPrice: "£32.99",
-      badges: ["Premium", "Top rated"],
-      theme: "from-[#d28a2e] via-[#e5a13e] to-[#f2c067]",
-    },
-    {
-      id: "alevel-bio",
-      slug: "alevel-bio",
-      title: "A-Level Biology: Live Lessons & Revision",
-      instructor: "Dr. Helen Morris",
-      rating: 4.7,
-      reviews: "9,734",
-      price: "£25.99",
-      oldPrice: "£31.99",
-      badges: ["Premium", "Bestseller"],
-      theme: "from-[#2b5bc6] via-[#3a71d9] to-[#5ea0f2]",
-    },
-  ],
-  New: [
-    {
-      id: "functional-maths",
-      slug: "functional-maths",
-      title: "Functional Skills Maths (Level 1 & 2)",
-      instructor: "Mr. David Clarke",
-      rating: 4.6,
-      reviews: "1,204",
-      price: "£19.99",
-      oldPrice: "£24.99",
-      badges: ["New", "Flexible"],
-      theme: "from-[#0d2b52] via-[#18406c] to-[#255685]",
-    },
-    {
-      id: "esol-starter",
-      slug: "esol-starter",
-      title: "ESOL Starter: Entry 1–3",
-      instructor: "Ms. Amina Khan",
-      rating: 4.7,
-      reviews: "1,840",
-      price: "£18.99",
-      oldPrice: "£22.99",
-      badges: ["New", "Live"],
-      theme: "from-[#1c7f5a] via-[#2e9e4f] to-[#6bcf7a]",
-    },
-    {
-      id: "alevel-maths",
-      slug: "alevel-maths",
-      title: "A-Level Maths: Pure + Mechanics",
-      instructor: "Mr. Oliver Grant",
-      rating: 4.6,
-      reviews: "2,104",
-      price: "£26.99",
-      oldPrice: "£34.99",
-      badges: ["New", "Exam prep"],
-      theme: "from-[#6b5b95] via-[#7567b4] to-[#9a8de4]",
-    },
-    {
-      id: "gcse-science",
-      slug: "gcse-science",
-      title: "GCSE Science: Biology, Chemistry, Physics",
-      instructor: "Dr. Meera Joshi",
-      rating: 4.7,
-      reviews: "3,028",
-      price: "£28.99",
-      oldPrice: "£36.99",
-      badges: ["New", "Bundle"],
-      theme: "from-[#2d6a4f] via-[#40916c] to-[#74c69d]",
-    },
-  ],
-  Trending: [
-    {
-      id: "gcse-intensive",
-      slug: "gcse-intensive",
-      title: "GCSE Intensive Revision Track",
-      instructor: "Mr. Liam O’Connor",
-      rating: 4.8,
-      reviews: "7,402",
-      price: "£31.99",
-      oldPrice: "£41.99",
-      badges: ["Trending", "Premium"],
-      theme: "from-[#1a2a6c] via-[#1f3c88] to-[#2a5298]",
-    },
-    {
-      id: "esol-advanced",
-      slug: "esol-advanced",
-      title: "ESOL Advanced: Level 1 & 2",
-      instructor: "Ms. Sofia Mendes",
-      rating: 4.7,
-      reviews: "4,210",
-      price: "£21.99",
-      oldPrice: "£27.99",
-      badges: ["Trending", "Live"],
-      theme: "from-[#0f766e] via-[#0f9d8b] to-[#20c997]",
-    },
-    {
-      id: "functional-english",
-      slug: "functional-english",
-      title: "Functional Skills English (Level 1 & 2)",
-      instructor: "Mrs. Priya Shah",
-      rating: 4.6,
-      reviews: "2,890",
-      price: "£20.99",
-      oldPrice: "£26.99",
-      badges: ["Trending", "Flexible"],
-      theme: "from-[#7f5af0] via-[#9064f2] to-[#b29bff]",
-    },
-    {
-      id: "alevel-essay",
-      slug: "alevel-essay",
-      title: "A-Level English: Essay & Analysis",
-      instructor: "Mr. Thomas Reed",
-      rating: 4.7,
-      reviews: "3,214",
-      price: "£23.99",
-      oldPrice: "£29.99",
-      badges: ["Trending", "Top rated"],
-      theme: "from-[#b21f1f] via-[#c13b3b] to-[#f25f5c]",
-    },
-  ],
-};
+const placeholderImage =
+  "data:image/svg+xml;utf8," +
+  encodeURIComponent(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+      <rect width="100%" height="100%" fill="#0d2b52"/>
+      <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial, sans-serif">
+        BritSkill Academy
+      </text>
+    </svg>`
+  );
 
 const Star = ({ filled }: { filled: boolean }) => (
   <svg
@@ -183,14 +45,35 @@ const Star = ({ filled }: { filled: boolean }) => (
 );
 
 export default function CoursesPage() {
-  const [activeTab, setActiveTab] = useState<(typeof tabs)[number]>(
-    "Most popular"
-  );
+  const allCourses = courses as Course[];
+
+  // Build tabs from categories in JSON
+  const tabs = useMemo(() => {
+    const categories = Array.from(new Set(allCourses.map((c) => c.category)))
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b));
+    return ["All", ...categories] as const;
+  }, [allCourses]);
+
+  const [activeTab, setActiveTab] = useState<(typeof tabs)[number]>("All");
+
+  const filteredCourses = useMemo(() => {
+    if (activeTab === "All") return allCourses;
+    return allCourses.filter((c) => c.category === activeTab);
+  }, [activeTab, allCourses]);
 
   return (
     <main className="min-h-screen bg-white">
-      <section className="mx-auto w-full max-w-7xl px-6 py-12">
-        <div className="flex flex-wrap items-center gap-6 border-b border-[#d7dee6]">
+      <section className="mx-auto max-w-7xl px-6 py-12">
+        <div className="mb-8 flex items-end justify-between gap-4">
+          <h1 className="text-2xl font-semibold text-[#1f2933]">Our Courses</h1>
+          <p className="text-sm text-[#5b6773]">
+            Browse by category to find the right course.
+          </p>
+        </div>
+
+        {/* Tabs */}
+        <div className="mb-8 flex flex-wrap gap-3 border-b border-[#e1e6eb]">
           {tabs.map((tab) => {
             const isActive = tab === activeTab;
             return (
@@ -198,97 +81,97 @@ export default function CoursesPage() {
                 key={tab}
                 type="button"
                 onClick={() => setActiveTab(tab)}
-                className={`relative pb-4 text-sm font-semibold transition ${
+                className={`relative -mb-px rounded-t-lg px-3 py-2 text-sm font-semibold transition ${
                   isActive
-                    ? "text-[var(--color-brand-primary)]"
+                    ? "border-b-2 border-[var(--color-brand-primary)] text-[var(--color-brand-primary)]"
                     : "text-[#5b6773] hover:text-[var(--color-brand-primary)]"
                 }`}
               >
                 {tab}
-                {isActive && (
-                  <span className="absolute inset-x-0 -bottom-[1px] h-[2px] rounded-full bg-[var(--color-brand-primary)]" />
-                )}
               </button>
             );
           })}
         </div>
 
-        <div className="mt-8 grid gap-6 lg:grid-cols-4">
-          {courses[activeTab].map((course) => (
+        {/* Grid */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {filteredCourses.map((course) => (
             <Link
-              key={course.id}
-              href={`/courses/${course.slug}`}
+              key={course?.slug}
+              href={`/courses/${course?.slug}`}
               className="group rounded-2xl border border-[#e1e6eb] bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
-              <div
-                className={`relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-gradient-to-br ${course.theme}`}
-              >
-                <div className="absolute inset-0 bg-black/10" />
-                <div className="absolute bottom-3 left-3 flex items-center gap-2 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[var(--color-brand-primary)]">
+              {/* Image */}
+              <div className="relative aspect-[16/9] overflow-hidden rounded-xl bg-[#f3f4f6]">
+                <Image
+                  src={course?.image || placeholderImage}
+                  alt={course?.title}
+                  fill
+                  className="object-cover"
+                />
+                <span className="absolute bottom-3 left-3 rounded-full bg-white px-3 py-1 text-xs font-semibold text-[var(--color-brand-primary)]">
                   Live tuition
-                </div>
+                </span>
               </div>
 
+              {/* Content */}
               <div className="mt-4 space-y-2">
                 <h3 className="text-base font-semibold text-[#1f2933]">
-                  {course.title}
+                  {course?.title}
                 </h3>
-                <p className="text-xs text-[#5b6773]">{course.instructor}</p>
+
+                <p className="text-xs text-[#5b6773]">
+                  {course?.instructor?.name}
+                </p>
+
                 <div className="flex items-center gap-2 text-xs text-[#5b6773]">
                   <span className="text-sm font-semibold text-[#1f2933]">
-                    {course.rating.toFixed(1)}
+                    {course?.rating?.toFixed(1)}
                   </span>
-                  <div className="flex items-center gap-1">
-                    {Array.from({ length: 5 }).map((_, idx) => (
-                      <Star key={idx} filled={idx < 5} />
+
+                  <div className="flex gap-1">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star key={i} filled={i < Math.round(course.rating)} />
                     ))}
                   </div>
-                  <span>({course.reviews})</span>
+
+                  <span>({course?.reviews})</span>
                 </div>
-                <div className="flex items-baseline gap-2 text-sm">
+
+                <div className="flex items-baseline gap-2">
                   <span className="text-lg font-semibold text-[#1f2933]">
-                    {course.price}
+                    {course?.price}
                   </span>
-                  {course.oldPrice && (
+                  {course?.oldPrice && (
                     <span className="text-xs text-[#8a94a4] line-through">
-                      {course.oldPrice}
+                      {course?.oldPrice}
                     </span>
                   )}
                 </div>
-                <div className="flex flex-wrap gap-2 pt-1">
-                  {course.badges.map((badge) => (
-                    <span
-                      key={badge}
-                      className="rounded-full bg-[var(--color-brand-primary)]/10 px-3 py-1 text-xs font-semibold text-[var(--color-brand-primary)]"
-                    >
-                      {badge}
+
+                <div className="flex items-center justify-between pt-1">
+                  {course?.badge ? (
+                    <span className="inline-block rounded-full bg-[var(--color-brand-primary)]/10 px-3 py-1 text-xs font-semibold text-[var(--color-brand-primary)]">
+                      {course?.badge}
                     </span>
-                  ))}
+                  ) : (
+                    <span />
+                  )}
+
+                  <span className="text-xs font-semibold text-[#5b6773]">
+                    {course?.category}
+                  </span>
                 </div>
               </div>
             </Link>
           ))}
         </div>
 
-        <div className="mt-12 flex items-center justify-between">
-          <h2 className="text-2xl font-semibold text-[var(--color-brand-primary)]">
-            Featured courses
-          </h2>
-          <button
-            type="button"
-            className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#e1e6eb] bg-white text-[var(--color-brand-primary)] shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-            aria-label="Scroll courses"
-          >
-            <svg
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path d="M7.5 5.25 12.25 10 7.5 14.75" />
-            </svg>
-          </button>
-        </div>
+        {filteredCourses.length === 0 && (
+          <div className="mt-10 rounded-xl border border-[#e1e6eb] bg-[#fbfcfd] p-6 text-sm text-[#5b6773]">
+            No courses found in this category.
+          </div>
+        )}
       </section>
     </main>
   );
