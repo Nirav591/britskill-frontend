@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import courses from "@/app/data/courses.json";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://britskillacademy.com";
 

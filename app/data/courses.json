@@ -13,8 +13,7 @@
     "level": "CEFR B1 (Intermediate)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£34.99",
-    "oldPrice": "£44.99",
+    "price": "£24.99/week -  £79.99/month" ,
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -285,8 +284,7 @@
     "level": "CEFR B2 (Upper-Intermediate)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£49.99",
-    "oldPrice": "£64.99",
+    "price": "£28.99/week -  £299.99/full course" ,
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
@@ -536,15 +534,14 @@
     "subtitle": "Proficient-user English for postgraduate study, senior roles, and high-stakes communication.",
     "category": "ESOL",
     "badge": "Proficient",
-    "image": "/images/courses/c1.jpg",
+    "image": "/images/courses/C1.jpg",
     "rating": 4.9,
     "reviews": "3,980",
     "students": "420",
     "level": "CEFR C1 (Advanced)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£449.00",
-    "oldPrice": "£499.00",
+    "price": "£32.99/week - £399.99/full course",
     "pricingOptions": [
       {
         "label": "Weekly",
@@ -883,8 +880,7 @@
     "level": "CEFR A1 (Beginner)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£24.99",
-    "oldPrice": "£34.99",
+    "price": "19.99/week - £69.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
@@ -1098,8 +1094,7 @@
     "level": "CEFR A2 (Elementary)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£22/week or £220–£240 full course",
-    "oldPrice": null,
+    "price": "20.99/week - £79.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -1363,8 +1358,7 @@
     "level": "Level 1 (equivalent to GCSE Grades 1–3)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£18/week or £150–£170 full course",
-    "oldPrice": null,
+    "price": "18.99/week - £59.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -1580,8 +1574,7 @@
     "level": "Level 2 (equivalent to GCSE Grade 4/C)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£20/week or £180–£200 full course",
-    "oldPrice": null,
+    "price": "£20.99/week or  £69.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -1810,7 +1803,6 @@
     "language": "English",
     "lastUpdated": "January 2026",
     "price": "£18/week or £150–£170 full course",
-    "oldPrice": null,
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -2028,8 +2020,7 @@
     "level": "Level 2 (equivalent to GCSE Grade 4/C)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "£20/week or £180–£200 full course",
-    "oldPrice": null,
+    "price": "£20.99/week or £69.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."

@@ -48,17 +48,19 @@ const Header = () => {
           <Link href={"/courses"}>
             Courses
           </Link>
-          <Link className="" href="/student-family-login">
+          <Link className="" target="_blank" href="http://britskill.teachworks.com/accounts/login">
             Student / Parent Login
           </Link>
-          <Link href={"/teacher-login"}>Teacher Login</Link>
-         
+          <Link
+            className="" target="_blank" href="http://britskill.teachworks.com/accounts/login">Teacher Login</Link>
+
         </nav>
 
         <div className="flex items-center gap-3">
           <Link
             className="rounded-full border border-[var(--color-brand-primary)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-brand-primary)] shadow-sm transition hover:bg-[var(--color-surface-muted)]"
-            href="/get-in-touch"
+            href="https://britskill.teachworks.com/form/get-in-touch"
+            target="_blank"
           >
             Get in touch
           </Link>
@@ -107,10 +109,10 @@ const Header = () => {
               <Link href="/courses" onClick={() => setMenuOpen(false)}>
                 Courses
               </Link>
-              <Link href="/student-family-login" onClick={() => setMenuOpen(false)}>
+              <Link href="http://britskill.teachworks.com/accounts/login" target="_blank" onClick={() => setMenuOpen(false)}>
                 Student / Parent Login
               </Link>
-              <Link href="/teacher-login" onClick={() => setMenuOpen(false)}>
+              <Link href="http://britskill.teachworks.com/accounts/login" target="_blank" onClick={() => setMenuOpen(false)}>
                 Teacher Login
               </Link>
               <Link href="/get-in-touch" onClick={() => setMenuOpen(false)}>

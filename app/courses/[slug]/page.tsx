@@ -4,6 +4,14 @@ import Link from "next/link";
 
 type Course = (typeof courses)[number];
 
+type CourseModule = {
+  module: number;
+  title: string;
+  focus: string;
+  keySkills?: string[];
+  optional?: boolean;
+};
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -29,6 +37,29 @@ const placeholderImage =
 export default async function CourseDetailsPage({ params }: PageProps) {
   const { slug } = await params;
   const course = courses.find((item) => item.slug === slug);
+  const delivery = (course as Course & { delivery?: Record<string, unknown> })
+    ?.delivery as {
+    durationWeeks?: string;
+    sessionsPerWeek?: string | number;
+    lessonLengthMinutes?: number;
+    recordings?: string;
+    format?: string;
+  };
+  const weeklyHours =
+    delivery?.sessionsPerWeek && delivery?.lessonLengthMinutes
+      ? `${delivery.sessionsPerWeek} sessions/week, ${delivery.lessonLengthMinutes} mins each`
+      : delivery?.sessionsPerWeek
+        ? `${delivery.sessionsPerWeek} sessions/week`
+        : "Flexible weekly schedule";
+  const examSupport =
+    (course as Course & { examPreparation?: { note?: string } })
+      ?.examPreparation?.note ??
+    course?.provider?.note ??
+    (course?.includes?.some((item) =>
+      item.toLowerCase().includes("exam")
+    )
+      ? "Exam practice and mock assessments included."
+      : "Exam support available on request.");
 
   if (!course) {
     notFound();
@@ -102,15 +133,15 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                   <span className="text-2xl font-semibold text-[var(--color-brand-primary)]">
                     {course?.price}
                   </span>
-                  {course?.oldPrice && (
+                  {(course as { oldPrice?: string }).oldPrice ? (
                     <span className="text-sm text-[#8a94a4] line-through">
-                      {course?.oldPrice}
+                      {(course as { oldPrice?: string }).oldPrice}
                     </span>
-                  )}
+                  ) : null}
                 </div>
                 <a
                   className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-brand-primary)] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                  href="https://britskill.teachworks.com/form/student-enrollment-form"
+                  href="https://britskill.teachworks.com/form/enrollment-form"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -128,6 +159,52 @@ export default async function CourseDetailsPage({ params }: PageProps) {
       <section className="mx-auto w-full max-w-7xl px-6 py-12">
         <div className="grid gap-10 lg:grid-cols-[1.5fr_0.7fr]">
           <div className="space-y-10">
+            <div className="grid gap-6 lg:grid-cols-2">
+              <div className="rounded-3xl border border-[#e1e6eb] bg-[var(--color-surface-muted)] p-6 shadow-sm">
+                <h2 className="text-xl font-semibold text-[var(--color-brand-primary)]">
+                  Who this course is for
+                </h2>
+                <ul className="mt-4 space-y-2 text-sm text-[#425161]">
+                  {course?.whoItsFor?.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="rounded-3xl border border-[#e1e6eb] bg-white p-6 shadow-sm">
+                <h2 className="text-xl font-semibold text-[var(--color-brand-primary)]">
+                  Course details
+                </h2>
+                <ul className="mt-4 space-y-2 text-sm text-[#425161]">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <span>Level: {course?.level}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <span>
+                      Class format: {delivery?.format ?? "Live online classes"}
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <span>Weekly hours: {weeklyHours}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <span>Exam support: {examSupport}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <span>Price: {course?.price}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <div>
               <h2 className="text-2xl font-semibold text-[var(--color-brand-primary)]">
                 What you’ll learn
@@ -150,7 +227,7 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 Course content
               </h2>
               <div className="mt-4 space-y-3">
-                {(course?.modules ?? []).map((section) => (
+                {((course?.modules ?? []) as CourseModule[]).map((section) => (
                   <details
                     key={section.title}
                     className="rounded-2xl border border-[#e1e6eb] bg-white shadow-sm"

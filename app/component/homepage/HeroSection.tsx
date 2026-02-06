@@ -27,12 +27,11 @@ const HeroSection = ({ className }: HeroSectionProps) => {
       {/* Content */}
       <div className="relative mx-auto flex w-full max-w-6xl flex-col items-center px-4 text-center md:px-8">
         <h1 className="text-3xl font-semibold leading-tight text-white md:text-5xl">
-          Online GCSE and A-Level Tuition with UK Qualified Tutors
+          Online English, ESOL & Functional Skills Classes for Students & Adult Learners in the UK
         </h1>
 
         <p className="mt-4 text-lg text-gray-200 md:text-xl">
-          Trusted online tuition for GCSE, A-Level, Functional Skills and ESOL
-          students across the UK and internationally.
+     Live online classes with qualified UK tutors. Flexible timings, small groups, exam-focused learning.
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-sm text-gray-200 md:text-base">
@@ -47,19 +46,26 @@ const HeroSection = ({ className }: HeroSectionProps) => {
           <span>Proven exam results</span>
         </div>
 
-        <div className="mt-8 flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <div className="mt-8 flex w-full flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <Link
             href="/book-assessment"
             className="w-full rounded-full bg-[var(--color-brand-accent)] px-8 py-4 text-sm font-semibold text-white shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 sm:w-auto"
           >
-            Book Your Free Assessment
+            Book a Free Assessment
           </Link>
 
           <Link
-            href="/courses"
+            href="/get-in-touch"
             className="w-full rounded-full border-2 border-white bg-white/90 px-8 py-4 text-sm font-semibold text-[var(--color-brand-accent)] transition hover:bg-white sm:w-auto"
           >
-            View Our Courses
+            Speak to an Advisor
+          </Link>
+
+          <Link
+            href="/pricing"
+            className="w-full rounded-full border-2 border-white/70 bg-transparent px-8 py-4 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"
+          >
+            View Course Prices
           </Link>
         </div>
 

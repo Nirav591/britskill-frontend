@@ -12,13 +12,10 @@ const PricingPlansSection = () => {
             id="pricing-plans-title"
             className="text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
           >
-            Clear, Affordable Pricing for Online Tuition
+            Clear & Affordable Online Tuition Pricing
           </h2>
           <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
-            BritSkill Academy offers transparent, flexible pricing with no
-            hidden fees or surprise charges. Our weekly subscription model
-            gives families predictable costs and the freedom to adjust as
-            needed.
+            At BritSkill Academy, we keep pricing simple, flexible, and transparent — with no hidden fees and no long-term contracts.
           </p>
         </div>
 
@@ -85,12 +82,11 @@ const PricingPlansSection = () => {
             </ul>
 
             <p className="mt-6 text-lg font-semibold text-[var(--color-brand-primary)]">
-              Pricing: From £XX per week (subject to course and level)
+              Pricing: From £19.99 per week (depending on course and level)
             </p>
             <p className="mt-3 text-sm text-[#425161]">
               No long-term contracts. Subscriptions run on a rolling weekly
-              basis. You can cancel in accordance with our published
-              cancellation policy — we require [X weeks/days] notice.
+              basis.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-xs font-semibold text-[var(--color-brand-primary)]">
@@ -197,7 +193,7 @@ const PricingPlansSection = () => {
             <div className="rounded-3xl border border-[#e1e6eb] bg-white p-6 shadow-sm">
               <div className="flex items-center justify-between">
                 <p className="text-lg font-semibold text-[var(--color-brand-primary)]">
-                  What you won’t find:
+                  No Hidden Costs — Ever
                 </p>
                 <span
                   className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-surface-muted)] text-[#b42318]"
@@ -219,10 +215,10 @@ const PricingPlansSection = () => {
               </div>
               <ul className="mt-4 space-y-3 text-sm text-[#425161]">
                 {[
-                  "Hidden registration fees",
-                  "Compulsory annual subscriptions",
-                  "Charges for learning materials",
-                  'Premium fees for "priority support"',
+                  "No registration fees",
+                  "No annual contracts",
+                  "No extra charges for materials or support",
+                  
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span
@@ -250,31 +246,8 @@ const PricingPlansSection = () => {
           </div>
         </div>
 
-        <p className="mx-auto mt-10 max-w-4xl text-center text-base font-medium text-[#1f2933] md:text-lg">
-          We believe excellent online tuition should be accessible and
-          straightforward. You pay for lessons. You get results.
-        </p>
 
-        <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Link
-            className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/get-in-touch"
-          >
-            Book a free trial
-          </Link>
-          <Link
-            className="w-full rounded-full border border-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-[var(--color-brand-primary)] transition hover:bg-[var(--color-surface-muted)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/courses"
-          >
-            View courses
-          </Link>
-          <Link
-            className="text-sm font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-            href="/policies/cancellation"
-          >
-            Cancellation policy
-          </Link>
-        </div>
+    
       </div>
     </section>
   );

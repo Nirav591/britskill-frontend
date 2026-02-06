@@ -10,7 +10,7 @@ type TrustSection = {
   bullets?: string[];
   extra?: string;
   after?: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 };
 
 const trustSections: TrustSection[] = [
@@ -474,13 +474,34 @@ const ParentsTrustSection = () => {
             className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
             href="/get-in-touch"
           >
-            Book a free trial
+            Speak to an advisor
           </Link>
           <Link
             className="text-sm font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
             href="/how-it-works"
           >
             How online tuition works
+          </Link>
+        </div>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-[var(--color-brand-primary)]">
+          <Link
+            className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
+            href="/policies/safeguarding"
+          >
+            Safeguarding Policy
+          </Link>
+          <Link
+            className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
+            href="/policies/privacy"
+          >
+            Privacy Policy
+          </Link>
+          <Link
+            className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
+            href="/policies/terms"
+          >
+            Terms & Conditions
           </Link>
         </div>
       </div>

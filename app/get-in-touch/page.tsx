@@ -26,9 +26,9 @@ export default function GetInTouchPage() {
                   Email:{" "}
                   <a
                     className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
-                    href="mailto:info@britskillacademy.com"
+                    href="mailto:info@britskillacademy.co.uk"
                   >
-                    info@britskillacademy.com
+                    info@britskillacademy.co.uk
                   </a>
                 </p>
                 <p>
@@ -40,7 +40,7 @@ export default function GetInTouchPage() {
                     +44 07944 424467
                   </a>
                 </p>
-                <p>Live chat: Mon–Fri, 9am–5pm</p>
+                <p>Support hours: Mon–Fri, 9am–5pm</p>
                 <p>Address: 165 The Broadway, London SW19 1NE</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function GetInTouchPage() {
             <form className="mt-6 space-y-4">
               <div>
                 <label className="mb-2 block text-sm font-semibold text-[#425161]">
-                  Full name
+                  Name
                 </label>
                 <input
                   type="text"
@@ -69,11 +69,11 @@ export default function GetInTouchPage() {
 
               <div>
                 <label className="mb-2 block text-sm font-semibold text-[#425161]">
-                  Email address
+                  Email or phone
                 </label>
                 <input
-                  type="email"
-                  name="email"
+                  type="text"
+                  name="contact"
                   required
                   className="w-full rounded-xl border border-[#d7dee6] px-4 py-3 text-sm text-[#1f2933] outline-none focus:border-[var(--color-brand-primary)] focus:ring-2 focus:ring-[var(--color-brand-primary)]/30"
                 />
@@ -81,25 +81,40 @@ export default function GetInTouchPage() {
 
               <div>
                 <label className="mb-2 block text-sm font-semibold text-[#425161]">
-                  Phone (optional)
+                  Who is this for?
                 </label>
-                <input
-                  type="tel"
-                  name="phone"
+                <select
+                  name="audience"
                   className="w-full rounded-xl border border-[#d7dee6] px-4 py-3 text-sm text-[#1f2933] outline-none focus:border-[var(--color-brand-primary)] focus:ring-2 focus:ring-[var(--color-brand-primary)]/30"
-                />
+                  required
+                >
+                  <option value="">Select one</option>
+                  <option value="student">Student</option>
+                  <option value="adult">Adult learner</option>
+                  <option value="parent">Parent</option>
+                </select>
               </div>
 
               <div>
                 <label className="mb-2 block text-sm font-semibold text-[#425161]">
-                  What can we help with?
+                  Course interested in
                 </label>
-                <textarea
-                  name="message"
-                  rows={5}
+                <select
+                  name="course"
                   required
                   className="w-full rounded-xl border border-[#d7dee6] px-4 py-3 text-sm text-[#1f2933] outline-none focus:border-[var(--color-brand-primary)] focus:ring-2 focus:ring-[var(--color-brand-primary)]/30"
-                />
+                >
+                  <option value="">Select a course</option>
+                  <option value="esol">ESOL</option>
+                  <option value="functional-skills-english">
+                    Functional Skills English
+                  </option>
+                  <option value="functional-skills-maths">
+                    Functional Skills Maths
+                  </option>
+                  <option value="gcse">GCSE</option>
+                  <option value="a-level">A-Level</option>
+                </select>
               </div>
 
               <button

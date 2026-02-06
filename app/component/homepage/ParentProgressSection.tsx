@@ -19,77 +19,60 @@ const progressItems: ProgressItem[] = [
   {
     key: "attendance",
     title: "Attendance Tracking",
-    text:
-      "Real-time visibility of lesson attendance. You'll know immediately if your child misses a class or joins late.",
+    text: "See attendance clearly — if your child is late or misses a lesson, you’ll know.",
     widget: {
       title: "Attendance",
-      value: "This week: 3/3 attended",
-      meta: "Last update: just now",
+      value: "This week: 3/3",
+      meta: "Updated: moments ago",
     },
   },
   {
     key: "reports",
     title: "Progress Reports",
-    text: "Regular updates on:",
-    bullets: [
-      "Topics covered in lessons",
-      "Assessment results and grade predictions",
-      "Strengths and areas for development",
-      "Recommendations for additional support",
-    ],
+    text: "Clear updates on:",
+    bullets: ["What was covered", "Assessments and progress", "Strengths and gaps", "Next steps and support"],
     widget: {
       title: "Progress",
-      value: "Topic mastery: updating",
-      meta: "Latest report: in review",
+      value: "Latest report: pending",
+      meta: "Status: in review",
     },
   },
   {
     key: "recordings",
-    title: "Access to Lesson Recordings",
-    text:
-      "Review what your child learned in every lesson. Recordings are available through your parent dashboard, subject to our safeguarding and consent policies.",
+    title: "Lesson Recordings",
+    text: "Rewatch lessons when needed. Access depends on safeguarding and consent settings.",
     widget: {
       title: "Recordings",
       value: "Latest: available",
-      meta: "Retention window: policy-led",
+      meta: "Access: policy-based",
     },
   },
   {
     key: "communication",
-    title: "Direct Communication Channels",
-    text: "Contact your child's tutor or our support team via:",
-    bullets: [
-      "Secure messaging through the parent portal",
-      "Email support (response within 24 hours on working days)",
-      "Scheduled parent-tutor consultations for detailed discussions",
-    ],
+    title: "Direct Communication",
+    text: "Reach your tutor or our team via:",
+    bullets: ["Secure portal messages", "Email support (working days)", "Booked parent-tutor calls"],
     widget: {
       title: "Messages",
-      value: "Response time: within 24 hours",
-      meta: "Working days only",
+      value: "Replies: within 24 hours",
+      meta: "Working days",
     },
   },
   {
     key: "feedback",
     title: "Assessment Feedback",
-    text:
-      "After tests, mock exams, or coursework reviews, parents receive:",
-    bullets: [
-      "Detailed mark breakdowns",
-      "Examiner-style feedback",
-      "Target-setting for improvement",
-    ],
+    text: "After tests and mocks, you get:",
+    bullets: ["Marks and breakdowns", "Targeted feedback", "Action points to improve"],
     widget: {
       title: "Feedback",
-      value: "Latest feedback: available",
-      meta: "Focus: improvement targets",
+      value: "Latest: ready",
+      meta: "Focus: next targets",
     },
   },
 ];
 
 const ParentProgressSection = () => {
-  const [activeKey, setActiveKey] =
-    useState<ProgressItem["key"]>("attendance");
+  const [activeKey, setActiveKey] = useState<ProgressItem["key"]>("attendance");
 
   const activeItem =
     progressItems.find((item) => item.key === activeKey) ?? progressItems[0];
@@ -108,13 +91,13 @@ const ParentProgressSection = () => {
             Parent Involvement and Progress Tracking
           </h2>
           <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
-            We believe parents should always know how their child is
-            progressing. BritSkill Academy provides clear, regular
-            communication to keep you informed and involved.
+            Parents should always know what’s going on. We give you clear
+            updates, so you can support your child properly.
           </p>
         </div>
 
         <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+          {/* Left: Dashboard preview */}
           <div className="rounded-3xl border border-[#e1e6eb] bg-[var(--color-surface-muted)] p-6 shadow-sm">
             <div className="flex items-center justify-between">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#5b6773]">
@@ -129,13 +112,16 @@ const ParentProgressSection = () => {
               {progressItems.map((item) => {
                 const isActive = item.key === activeKey;
                 return (
-                  <div
+                  <button
                     key={item.key}
-                    className={`rounded-2xl border bg-white px-4 py-3 shadow-sm transition ${
+                    type="button"
+                    onClick={() => setActiveKey(item.key)}
+                    className={`w-full rounded-2xl border bg-white px-4 py-3 text-left shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] ${
                       isActive
                         ? "border-[var(--color-brand-primary)] shadow-md"
-                        : "border-[#e1e6eb]"
+                        : "border-[#e1e6eb] hover:-translate-y-1 hover:shadow-md"
                     }`}
+                    aria-pressed={isActive}
                   >
                     <div className="flex items-center justify-between">
                       <p className="text-sm font-semibold text-[var(--color-brand-primary)]">
@@ -148,7 +134,7 @@ const ParentProgressSection = () => {
                             : "text-[#5b6773]"
                         }`}
                       >
-                        {item.key === activeKey ? "Active" : "Preview"}
+                        {isActive ? "Active" : "Preview"}
                       </span>
                     </div>
                     <p className="mt-2 text-sm text-[#425161]">
@@ -157,16 +143,18 @@ const ParentProgressSection = () => {
                     <p className="mt-1 text-xs text-[#5b6773]">
                       {item.widget.meta}
                     </p>
-                  </div>
+                  </button>
                 );
               })}
             </div>
           </div>
 
+          {/* Right: Details */}
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#5b6773]">
               What Parents Receive:
             </p>
+
             <div className="mt-6 space-y-4">
               {progressItems.map((item) => (
                 <button
@@ -178,11 +166,13 @@ const ParentProgressSection = () => {
                       ? "border-[var(--color-brand-primary)] bg-white shadow-md"
                       : "border-[#e1e6eb] bg-white hover:-translate-y-1 hover:shadow-md"
                   }`}
+                  aria-pressed={activeKey === item.key}
                 >
                   <h3 className="text-lg font-semibold text-[var(--color-brand-primary)]">
                     {item.title}
                   </h3>
                   <p className="mt-2 text-sm text-[#425161]">{item.text}</p>
+
                   {item.bullets && (
                     <ul className="mt-3 space-y-2 text-sm text-[#425161]">
                       {item.bullets.map((bullet) => (
@@ -196,6 +186,7 @@ const ParentProgressSection = () => {
                       ))}
                     </ul>
                   )}
+
                   {item.key === "recordings" && (
                     <div className="mt-3 flex flex-wrap gap-3 text-xs font-semibold text-[var(--color-brand-primary)]">
                       <Link
@@ -216,26 +207,6 @@ const ParentProgressSection = () => {
               ))}
             </div>
           </div>
-        </div>
-
-        <p className="mx-auto mt-10 max-w-3xl text-center text-base font-semibold text-[var(--color-brand-primary)] md:text-lg">
-          You're not left guessing. You get facts, data, and actionable
-          insights.
-        </p>
-
-        <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Link
-            className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/get-in-touch"
-          >
-            Book a free trial
-          </Link>
-          <Link
-            className="text-sm font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-            href="/how-it-works"
-          >
-            How online tuition works
-          </Link>
         </div>
       </div>
     </section>

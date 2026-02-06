@@ -29,139 +29,111 @@ const DifferentiatorsSection = ({ className }: DifferentiatorsSectionProps) => {
     >
       <div className="mx-auto w-full max-w-7xl px-6">
         <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-start">
+          {/* Left content */}
           <div>
-       
             <h2
               id="differentiators-title"
-              className="mt-3 text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
+              className="text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
             >
-              What Makes BritSkill Academy Different
+              What Makes BritSkill Academy Different?
             </h2>
+
             <h3 className="mt-4 text-xl font-semibold text-[#1f2933] md:text-2xl">
-              Why Choose BritSkill Academy for Online Tuition?
+              Online tuition that stays focused on results
             </h3>
 
             <div className="mt-4 space-y-4 text-base leading-relaxed text-[#425161]">
               <p>
-                BritSkill Academy delivers high-quality online tuition designed
-                specifically for students preparing for{" "}
+                BritSkill Academy offers <strong>live online tuition</strong> for{" "}
                 <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                   href="/courses/gcse"
+                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
                 >
-                  GCSEs
+                  GCSE
                 </Link>
                 ,{" "}
                 <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                   href="/courses/a-level"
+                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
                 >
-                  A-Levels
+                  A-Level
                 </Link>
                 ,{" "}
                 <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                   href="/courses/functional-skills"
+                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
                 >
                   Functional Skills
                 </Link>{" "}
                 and{" "}
                 <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                   href="/courses/esol"
+                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
                 >
                   ESOL
                 </Link>{" "}
-                qualifications in the UK. Unlike pre-recorded video courses or
-                overcrowded classrooms, we provide live, teacher-led lessons in
-                small groups where every student receives individual attention.
+                learners across the UK.
               </p>
+
               <p>
-                Our tutors are UK-qualified teachers with specialist subject
-                knowledge and current teaching experience. Every lesson is
-                structured around the UK national curriculum and exam board
-                specifications, ensuring students learn exactly what they need
-                to succeed.
+                We teach in <strong>small groups</strong> so every student gets attention,
+                clear explanations, and time to ask questions.
               </p>
+
               <p>
-                We combine academic excellence with a safe, supportive online
-                learning environment where students build confidence, master
-                challenging topics, and achieve measurable progress.
+                Sessions are led by <strong>UK-qualified teachers</strong> and built around
+                what exam boards actually assess.
               </p>
             </div>
           </div>
 
+          {/* Right card */}
           <div className="rounded-3xl border border-[#e1e6eb] bg-[var(--color-surface-muted)] p-6 shadow-sm md:p-8">
             <h3 className="text-lg font-semibold text-[var(--color-brand-primary)]">
-              What sets us apart:
+              What sets us apart
             </h3>
+
             <ul className="mt-4 space-y-4 text-sm text-[#425161] md:text-base">
               <li className="flex items-start gap-3">
                 <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
-                <span>
-                  Live online lessons, not recorded videos — real-time
-                  interaction with expert tutors
-                </span>
+                <span>Live lessons with real tutor support</span>
               </li>
+
+              <li className="flex items-start gap-3">
+                <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
+                <span>Small classes (max 8 students)</span>
+              </li>
+
               <li className="flex items-start gap-3">
                 <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
                 <span>
-                  Small class sizes capped at 8 students for personalised
-                  attention
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
-                <span>
-                  UK-qualified tutors, DBS-checked and{" "}
+                  UK-qualified, DBS-checked tutors with{" "}
                   <Link
-                    className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
                     href="/policies/safeguarding"
+                    className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4"
                   >
                     safeguarding
                   </Link>{" "}
-                  trained
+                  training
                 </span>
               </li>
+
               <li className="flex items-start gap-3">
                 <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
-                <span>
-                  Structured curriculum aligned to exam boards (AQA, Edexcel,
-                  OCR)
-                </span>
+                <span>Exam board aligned teaching (AQA, Edexcel, OCR)</span>
               </li>
+
               <li className="flex items-start gap-3">
                 <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
-                <span>Regular assessments and detailed progress tracking</span>
+                <span>Progress tracking and regular check-ins</span>
               </li>
+
               <li className="flex items-start gap-3">
                 <CheckIcon className="mt-1 h-5 w-5 text-[var(--color-brand-accent)]" />
-                <span>
-                  Exam-focused teaching from tutors who understand mark schemes
-                </span>
+                <span>Clear exam technique and mark scheme guidance</span>
               </li>
             </ul>
           </div>
-        </div>
-
-        <p className="mx-auto mt-8 max-w-4xl text-base font-medium text-[#1f2933]">
-          Whether your child needs to catch up, stay on track, or aim for top
-          grades, BritSkill Academy provides the expert support they need.
-        </p>
-
-        <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Link
-            className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/get-in-touch"
-          >
-            Book a free trial
-          </Link>
-          <Link
-            className="text-sm font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-            href="/courses"
-          >
-            Subjects &amp; levels
-          </Link>
         </div>
       </div>
     </section>

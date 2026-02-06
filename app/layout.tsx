@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://britskillacademy.com"),
+  metadataBase: new URL("https://britskillacademy.co.uk"),
   title: {
     default: "BritSkill Academy | Online Tuition",
     template: "%s | BritSkill Academy",

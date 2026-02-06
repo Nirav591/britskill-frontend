@@ -6,8 +6,11 @@ import ParentProgressSection from "./component/homepage/ParentProgressSection";
 import ParentsTrustSection from "./component/homepage/ParentsTrustSection";
 import PricingPlansSection from "./component/homepage/PricingPlansSection";
 import SubjectsQualificationsSection from "./component/homepage/SubjectsQualificationsSection";
+import TestimonialsSection from "./component/homepage/TestimonialsSection";
+import WhoIsThisForSection from "./component/homepage/WhoIsThisForSection";
 
 import Layout from "./container/Layout";
+import HowItWorksPage from "./how-it-works/page";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
         <DifferentiatorsSection />
       </section>
       <section>
+        <WhoIsThisForSection />
+      </section>
+      <section>
         <HowOnlineTuitionWorks />
       </section>
       <section>
@@ -28,13 +34,10 @@ export default function Home() {
         <PricingPlansSection />
       </section>
       <section>
-        <ParentsTrustSection />
+        <TestimonialsSection />
       </section>
       <section>
         <ParentProgressSection />
-      </section>
-      <section>
-        <GetStartedCTASection />
       </section>
     </div>
   );

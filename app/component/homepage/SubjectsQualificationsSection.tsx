@@ -4,17 +4,78 @@ import { useId, useState } from "react";
 import Link from "next/link";
 
 type QualificationItem = {
-  key: "gcse" | "alevel" | "functional" | "esol";
+  key: "esol" | "gcse" | "alevel" | "functional";
   title: string;
   description: string;
   label: string;
   bullets: string[];
   extra: string;
   link: { label: string; href: string };
-  icon: JSX.Element;
+  icon: React.ReactNode;
 };
 
 const qualifications: QualificationItem[] = [
+  {
+    key: "esol",
+    title: "ESOL Tuition (English for Speakers of Other Languages)",
+    description:
+      "Comprehensive ESOL courses for learners developing English language skills for education, work, or UK citizenship.",
+    label: "Levels offered:",
+    bullets: [
+      "Entry 1, Entry 2, Entry 3",
+      "Level 1, Level 2",
+      "Speaking, listening, reading, and writing skills",
+    ],
+    extra:
+      "Our ESOL tutors have specialist qualifications in teaching English as an additional language and experience supporting international students.",
+    link: { label: "View ESOL courses", href: "/courses/esol" },
+    icon: (
+      <svg
+        className="h-5 w-5"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <circle cx="12" cy="12" r="9" />
+        <path d="M3 12h18" />
+        <path d="M12 3a15 15 0 0 1 0 18" />
+      </svg>
+    ),
+  },
+  {
+    key: "functional",
+    title: "Functional Skills Tuition (Level 1 & Level 2)",
+    description:
+      "Functional Skills qualifications are practical, work-focused alternatives to GCSEs, accepted by employers and colleges across the UK.",
+    label: "Courses available:",
+    bullets: [
+      "Functional Skills Maths (Level 1 and Level 2)",
+      "Functional Skills English (Level 1 and Level 2)",
+    ],
+    extra:
+      "Ideal for adult learners, apprentices, and students seeking alternative pathways to employment or further education.",
+    link: { label: "View Functional Skills", href: "/courses/functional-skills" },
+    icon: (
+      <svg
+        className="h-5 w-5"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M4 6h16" />
+        <path d="M4 12h16" />
+        <path d="M4 18h10" />
+      </svg>
+    ),
+  },
   {
     key: "gcse",
     title: "GCSE Tuition Online",
@@ -77,67 +138,8 @@ const qualifications: QualificationItem[] = [
       </svg>
     ),
   },
-  {
-    key: "functional",
-    title: "Functional Skills Tuition (Level 1 & Level 2)",
-    description:
-      "Functional Skills qualifications are practical, work-focused alternatives to GCSEs, accepted by employers and colleges across the UK.",
-    label: "Courses available:",
-    bullets: [
-      "Functional Skills Maths (Level 1 and Level 2)",
-      "Functional Skills English (Level 1 and Level 2)",
-    ],
-    extra:
-      "Ideal for adult learners, apprentices, and students seeking alternative pathways to employment or further education.",
-    link: { label: "View Functional Skills", href: "/courses/functional-skills" },
-    icon: (
-      <svg
-        className="h-5 w-5"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <path d="M4 6h16" />
-        <path d="M4 12h16" />
-        <path d="M4 18h10" />
-      </svg>
-    ),
-  },
-  {
-    key: "esol",
-    title: "ESOL Tuition (English for Speakers of Other Languages)",
-    description:
-      "Comprehensive ESOL courses for learners developing English language skills for education, work, or UK citizenship.",
-    label: "Levels offered:",
-    bullets: [
-      "Entry 1, Entry 2, Entry 3",
-      "Level 1, Level 2",
-      "Speaking, listening, reading, and writing skills",
-    ],
-    extra:
-      "Our ESOL tutors have specialist qualifications in teaching English as an additional language and experience supporting international students.",
-    link: { label: "View ESOL courses", href: "/courses/esol" },
-    icon: (
-      <svg
-        className="h-5 w-5"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <circle cx="12" cy="12" r="9" />
-        <path d="M3 12h18" />
-        <path d="M12 3a15 15 0 0 1 0 18" />
-      </svg>
-    ),
-  },
+
+
 ];
 
 const SubjectsQualificationsSection = () => {
@@ -183,19 +185,17 @@ const SubjectsQualificationsSection = () => {
                   aria-selected={isActive}
                   aria-controls={`${tabsId}-${item.key}-panel`}
                   onClick={() => setActiveKey(item.key)}
-                  className={`flex items-center justify-between rounded-2xl border px-4 py-3 text-left text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] ${
-                    isActive
+                  className={`flex items-center justify-between rounded-2xl border px-4 py-3 text-left text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] ${isActive
                       ? "border-[var(--color-brand-primary)] bg-[var(--color-surface-muted)] text-[var(--color-brand-primary)] shadow-sm"
                       : "border-[#e1e6eb] bg-white text-[#425161] hover:border-[#c6d1db]"
-                  }`}
+                    }`}
                 >
                   <span>{item.title.split(" ")[0]}</span>
                   <span
-                    className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${
-                      isActive
+                    className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${isActive
                         ? "bg-white text-[var(--color-brand-primary)]"
                         : "bg-[var(--color-surface-muted)] text-[#5b6773]"
-                    }`}
+                      }`}
                     aria-hidden="true"
                   >
                     {item.icon}

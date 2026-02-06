@@ -77,9 +77,27 @@ const Footer = () => {
               </Link>
               <Link
                 className="hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+                href="/policies/children-privacy"
+              >
+                Children&apos;s Privacy Notice
+              </Link>
+              <Link
+                className="hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+                href="/policies/code-of-conduct"
+              >
+                Code of Conduct
+              </Link>
+              <Link
+                className="hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
                 href="/policies/privacy"
               >
                 Privacy Policy
+              </Link>
+               <Link
+                className="hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+                href="/policies/terms-of-use"
+              >
+               Term of Use
               </Link>
               <Link
                 className="hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
@@ -105,9 +123,9 @@ const Footer = () => {
                 Email:{" "}
                 <a
                   className="font-semibold text-white underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
-                  href="mailto:info@britskillacademy.com"
+                  href="mailto:info@britskillacademy.co.uk"
                 >
-                  info@britskillacademy.com
+                  info@britskillacademy.co.uk
                 </a>
               </p>
               <p>
@@ -123,7 +141,7 @@ const Footer = () => {
             </div>
           </div>
 
-          
+
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/60 md:flex md:items-center md:justify-between">

@@ -34,14 +34,7 @@ export default function HowItWorksPage() {
             </p>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-sm font-semibold text-[#5b6773]">
-            <span className="rounded-full border border-[#d7dee6] bg-white px-4 py-2">
-              With BritSkill
-            </span>
-            <span className="rounded-full border border-[#d7dee6] bg-white px-4 py-2 text-[#9aa4b2]">
-              Without BritSkill
-            </span>
-          </div>
+          
 
           <div className="relative mt-10 w-full overflow-hidden rounded-[28px] border border-[#edf0f4] bg-gradient-to-br from-[#f7f7fb] via-white to-[#f1f6ff]">
             <svg

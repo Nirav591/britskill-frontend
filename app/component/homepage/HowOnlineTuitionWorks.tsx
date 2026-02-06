@@ -18,18 +18,16 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
             id="how-online-tuition-works"
             className="text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
           >
-            How Our Online Tuition Programme Works
+            How It Works
           </h2>
           <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
-            Getting started with BritSkill Academy is straightforward. Our
-            structured approach ensures every student gets the right level of
-            support from day one.
+            Simple, clear steps so you know exactly what happens next.
           </p>
         </div>
 
         <div className="relative mt-12">
           <div className="absolute left-0 right-0 top-10 hidden h-px bg-[#d7dee6] lg:block" />
-          <div className="grid gap-8 lg:grid-cols-3">
+          <div className="grid gap-8 lg:grid-cols-4">
             <article className="group relative rounded-3xl border border-[#e1e6eb] bg-white p-6 shadow-sm transition motion-reduce:transition-none hover:-translate-y-1 hover:shadow-md">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-semibold text-[#5b6773]">01</span>
@@ -53,40 +51,11 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
                 </span>
               </div>
               <h3 className="mt-5 text-lg font-semibold text-[var(--color-brand-primary)]">
-                Choose Your Course and Level
+                Enquire or Book a Free Assessment
               </h3>
               <p className="mt-3 text-sm leading-6 text-[#425161]">
-                Select from{" "}
-                <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                  href="/courses/gcse"
-                >
-                  GCSE tuition
-                </Link>
-                ,{" "}
-                <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                  href="/courses/a-level"
-                >
-                  A-Level tuition
-                </Link>
-                ,{" "}
-                <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                  href="/courses/functional-skills"
-                >
-                  Functional Skills
-                </Link>{" "}
-                or{" "}
-                <Link
-                  className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                  href="/courses/esol"
-                >
-                  ESOL
-                </Link>{" "}
-                courses based on your child's current learning needs and
-                academic goals. We offer expert tuition across core subjects
-                including Maths, English, and Sciences.
+                Tell us who the learner is and what they need. We’ll recommend
+                the best starting point.
               </p>
             </article>
 
@@ -113,14 +82,11 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
                 </span>
               </div>
               <h3 className="mt-5 text-lg font-semibold text-[var(--color-brand-primary)]">
-                Enrol in Weekly Live Lessons
+                Level Assessment & Course Advice
               </h3>
               <p className="mt-3 text-sm leading-6 text-[#425161]">
-                Students join three live online lessons per week, each lasting
-                60 minutes. Classes are scheduled at consistent times to build
-                routine and commitment. Our interactive virtual classroom
-                technology ensures students can see, hear, and engage with
-                their tutor and classmates in real-time.
+                We assess the learner’s level and goals, then match them to the
+                right course and class format.
               </p>
             </article>
 
@@ -148,22 +114,51 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
                 </span>
               </div>
               <h3 className="mt-5 text-lg font-semibold text-[var(--color-brand-primary)]">
-                Learn, Practice, and Track Progress
+                Join Live Online Classes
               </h3>
               <p className="mt-3 text-sm leading-6 text-[#425161]">
-                Every lesson includes direct instruction, guided practice, and
-                time for questions. Students receive homework assignments,
-                access to lesson recordings for revision, and regular progress
-                assessments. Parents receive updates on attendance, engagement,
-                and academic development.
+                Start learning with qualified UK tutors in small groups or
+                1-to-1 sessions.
+              </p>
+            </article>
+
+            <article className="group relative rounded-3xl border border-[#e1e6eb] bg-white p-6 shadow-sm transition motion-reduce:transition-none hover:-translate-y-1 hover:shadow-md">
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-semibold text-[#5b6773]">04</span>
+                <span
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-surface-muted)] text-[var(--color-brand-primary)]"
+                  aria-hidden="true"
+                >
+                  <svg
+                    className="h-5 w-5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M4 19V5" />
+                    <path d="M8 19v-6" />
+                    <path d="M12 19v-9" />
+                    <path d="M16 19v-4" />
+                    <path d="M20 19V8" />
+                  </svg>
+                </span>
+              </div>
+              <h3 className="mt-5 text-lg font-semibold text-[var(--color-brand-primary)]">
+                Track Progress & Exam Support
+              </h3>
+              <p className="mt-3 text-sm leading-6 text-[#425161]">
+                We track progress, share updates, and support exam preparation
+                when needed.
               </p>
             </article>
           </div>
         </div>
 
         <p className="mx-auto mt-8 max-w-4xl text-center text-sm font-semibold text-[var(--color-brand-primary)] md:text-base">
-          No lengthy contracts required. Families can join on a rolling weekly
-          subscription and cancel with appropriate notice as outlined in our{" "}
+          Flexible weekly plans with no long contracts. Full details in our{" "}
           <Link
             className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
             href="/policies/terms"
@@ -176,15 +171,15 @@ const HowOnlineTuitionWorks = ({ className }: HowOnlineTuitionWorksProps) => {
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link
             className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/courses"
+            href="/book-assessment"
           >
-            View courses
+            Book a free assessment
           </Link>
           <Link
             className="w-full rounded-full border border-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-[var(--color-brand-primary)] transition hover:bg-[var(--color-surface-muted)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] sm:w-auto"
-            href="/get-in-touch"
+            href="/pricing"
           >
-            Book a free trial
+            View course prices
           </Link>
         </div>
       </div>

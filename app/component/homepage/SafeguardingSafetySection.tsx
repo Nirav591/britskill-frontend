@@ -9,7 +9,7 @@ type SafeguardingSection = {
   intro?: string;
   bullets?: string[];
   extra?: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 };
 
 const safeguardingSections: SafeguardingSection[] = [

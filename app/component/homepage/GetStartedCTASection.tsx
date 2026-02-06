@@ -50,9 +50,9 @@ const GetStartedCTASection = () => {
                   Email:{" "}
                   <a
                     className="font-semibold text-[var(--color-brand-primary)] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                    href="mailto:info@britskillacademy.com"
+                    href="mailto:info@britskillacademy.co.uk"
                   >
-                    info@britskillacademy.com
+                    info@britskillacademy.co.uk
                   </a>
                 </p>
                 <p>
