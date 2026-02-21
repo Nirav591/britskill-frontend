@@ -7,19 +7,21 @@ type HeroSectionProps = {
 const HeroSection = ({ className }: HeroSectionProps) => {
   return (
     <section
-      className={`relative overflow-hidden py-16 md:py-24 ${className ?? ""}`}
+      className={`relative overflow-hidden  ${className ?? ""} h-[100vh] flex flex-col justify-center`}
     >
       {/* Background video */}
-      <video
-        className="absolute inset-0 h-full w-full object-cover"
-        autoPlay
-        loop
-        muted
-        playsInline
-        aria-hidden="true"
-      >
-        <source src="https://solidblackabroad.com/images/background/bg1.mp4" type="video/mp4" />
-      </video>
+      <div>
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+        >
+          <source src="https://solidblackabroad.com/images/background/bg1.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50" />
@@ -31,7 +33,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
         </h1>
 
         <p className="mt-4 text-lg text-gray-200 md:text-xl">
-     Live online classes with qualified UK tutors. Flexible timings, small groups, exam-focused learning.
+          Live online classes with qualified UK tutors. Flexible timings, small groups, exam-focused learning.
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-sm text-gray-200 md:text-base">
@@ -54,18 +56,12 @@ const HeroSection = ({ className }: HeroSectionProps) => {
             Book a Free Assessment
           </Link>
 
-          <Link
-            href="/get-in-touch"
-            className="w-full rounded-full border-2 border-white bg-white/90 px-8 py-4 text-sm font-semibold text-[var(--color-brand-accent)] transition hover:bg-white sm:w-auto"
-          >
-            Speak to an Advisor
-          </Link>
 
           <Link
-            href="/pricing"
+            href="/courses"
             className="w-full rounded-full border-2 border-white/70 bg-transparent px-8 py-4 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"
           >
-            View Course Prices
+            View Courses
           </Link>
         </div>
 

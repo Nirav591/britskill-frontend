@@ -880,7 +880,7 @@
     "level": "CEFR A1 (Beginner)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "19.99/week - £69.99/month",
+    "price": "£19.99/week - £69.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official examinations are taken with approved assessment centres."
@@ -1087,14 +1087,14 @@
     "subtitle": "Build confidence in everyday English for life, work, and UK integration at CEFR A2 level.",
     "category": "ESOL",
     "badge": "Beginner-Friendly",
-    "image": "/images/courses/a2.jpg",
+    "image": "/images/courses/A2.jpg",
     "rating": 4.7,
     "reviews": "6,210",
     "students": "1,450",
     "level": "CEFR A2 (Elementary)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "20.99/week - £79.99/month",
+    "price": "£20.99/week - £79.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."
@@ -1358,7 +1358,7 @@
     "level": "Level 1 (equivalent to GCSE Grades 1–3)",
     "language": "English",
     "lastUpdated": "January 2026",
-    "price": "18.99/week - £59.99/month",
+    "price": "£18.99/week - £59.99/month",
     "provider": {
       "name": "Britskill Academy",
       "note": "Preparation and guidance provided. Official exams are taken at approved assessment centres."

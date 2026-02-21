@@ -1,211 +1,63 @@
-"use client";
-
-import { useState } from "react";
-import Link from "next/link";
-
-type ProgressItem = {
-  key: "attendance" | "reports" | "recordings" | "communication" | "feedback";
-  title: string;
-  text: string;
-  bullets?: string[];
-  widget: {
-    title: string;
-    value: string;
-    meta: string;
-  };
-};
-
-const progressItems: ProgressItem[] = [
-  {
-    key: "attendance",
-    title: "Attendance Tracking",
-    text: "See attendance clearly — if your child is late or misses a lesson, you’ll know.",
-    widget: {
-      title: "Attendance",
-      value: "This week: 3/3",
-      meta: "Updated: moments ago",
-    },
-  },
-  {
-    key: "reports",
-    title: "Progress Reports",
-    text: "Clear updates on:",
-    bullets: ["What was covered", "Assessments and progress", "Strengths and gaps", "Next steps and support"],
-    widget: {
-      title: "Progress",
-      value: "Latest report: pending",
-      meta: "Status: in review",
-    },
-  },
-  {
-    key: "recordings",
-    title: "Lesson Recordings",
-    text: "Rewatch lessons when needed. Access depends on safeguarding and consent settings.",
-    widget: {
-      title: "Recordings",
-      value: "Latest: available",
-      meta: "Access: policy-based",
-    },
-  },
-  {
-    key: "communication",
-    title: "Direct Communication",
-    text: "Reach your tutor or our team via:",
-    bullets: ["Secure portal messages", "Email support (working days)", "Booked parent-tutor calls"],
-    widget: {
-      title: "Messages",
-      value: "Replies: within 24 hours",
-      meta: "Working days",
-    },
-  },
-  {
-    key: "feedback",
-    title: "Assessment Feedback",
-    text: "After tests and mocks, you get:",
-    bullets: ["Marks and breakdowns", "Targeted feedback", "Action points to improve"],
-    widget: {
-      title: "Feedback",
-      value: "Latest: ready",
-      meta: "Focus: next targets",
-    },
-  },
-];
+import Image from "next/image";
 
 const ParentProgressSection = () => {
-  const [activeKey, setActiveKey] = useState<ProgressItem["key"]>("attendance");
-
-  const activeItem =
-    progressItems.find((item) => item.key === activeKey) ?? progressItems[0];
-
   return (
     <section
-      aria-labelledby="parent-progress-title"
-      className="bg-white py-20 text-[var(--color-foreground)]"
+      aria-labelledby="course-finder-title"
+      className="relative overflow-hidden bg-gradient-to-br from-[#0b2a2a] via-[#0a2223] to-[#08161a] py-20 text-white"
     >
-      <div className="mx-auto w-full max-w-7xl px-6">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2
-            id="parent-progress-title"
-            className="text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
-          >
-            Parent Involvement and Progress Tracking
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
-            Parents should always know what’s going on. We give you clear
-            updates, so you can support your child properly.
-          </p>
-        </div>
+      <div className="absolute left-0 top-0 h-72 w-72 -translate-x-1/3 -translate-y-1/3 rounded-full bg-[var(--brand-accent)]/20 blur-3xl" />
+      <div className="absolute bottom-0 right-0 h-72 w-72 translate-x-1/3 translate-y-1/3 rounded-full bg-[var(--brand-accent)]/10 blur-3xl" />
+      <div className="absolute right-12 top-24 h-16 w-16 rounded-full border border-white/10 bg-white/5" />
+      <div className="absolute right-20 top-40 h-12 w-12 rounded-full border border-white/10 bg-white/5" />
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
-          {/* Left: Dashboard preview */}
-          <div className="rounded-3xl border border-[#e1e6eb] bg-[var(--color-surface-muted)] p-6 shadow-sm">
-            <div className="flex items-center justify-between">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#5b6773]">
-                Parent dashboard preview
-              </p>
-              <span className="text-xs font-semibold text-[var(--color-brand-primary)]">
-                Live view
-              </span>
-            </div>
-
-            <div className="mt-6 space-y-4">
-              {progressItems.map((item) => {
-                const isActive = item.key === activeKey;
-                return (
-                  <button
-                    key={item.key}
-                    type="button"
-                    onClick={() => setActiveKey(item.key)}
-                    className={`w-full rounded-2xl border bg-white px-4 py-3 text-left shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] ${
-                      isActive
-                        ? "border-[var(--color-brand-primary)] shadow-md"
-                        : "border-[#e1e6eb] hover:-translate-y-1 hover:shadow-md"
-                    }`}
-                    aria-pressed={isActive}
-                  >
-                    <div className="flex items-center justify-between">
-                      <p className="text-sm font-semibold text-[var(--color-brand-primary)]">
-                        {item.widget.title}
-                      </p>
-                      <span
-                        className={`text-xs font-semibold ${
-                          isActive
-                            ? "text-[var(--color-brand-accent)]"
-                            : "text-[#5b6773]"
-                        }`}
-                      >
-                        {isActive ? "Active" : "Preview"}
-                      </span>
-                    </div>
-                    <p className="mt-2 text-sm text-[#425161]">
-                      {item.widget.value}
-                    </p>
-                    <p className="mt-1 text-xs text-[#5b6773]">
-                      {item.widget.meta}
-                    </p>
-                  </button>
-                );
-              })}
-            </div>
+      <div className="relative mx-auto w-full max-w-7xl px-6">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+          <div className="relative overflow-hidden rounded-[32px] border border-white/10 shadow-[0_30px_80px_rgba(6,12,15,0.45)] ">
+            <Image
+              src="/images/courses/findcourse.png"
+              alt="Students learning together"
+              width={840}
+              height={560}
+              className="h-[320px] w-full  md:h-[420px] lg:h-[520px] object-contain"
+              priority
+            />
           </div>
 
-          {/* Right: Details */}
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#5b6773]">
-              What Parents Receive:
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
+              Subscribe Newsletter
+            </span>
+            <h2
+              id="course-finder-title"
+              className="mt-5 text-3xl font-semibold md:text-4xl"
+            >
+              Find Your Best Course With Us
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-white/70">
+              Tell us what you need and we will guide you to the right course,
+              level, and class format. Our advisors reply quickly with clear
+              options and pricing.
             </p>
 
-            <div className="mt-6 space-y-4">
-              {progressItems.map((item) => (
-                <button
-                  key={item.key}
-                  type="button"
-                  onClick={() => setActiveKey(item.key)}
-                  className={`w-full rounded-2xl border px-5 py-4 text-left shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)] ${
-                    activeKey === item.key
-                      ? "border-[var(--color-brand-primary)] bg-white shadow-md"
-                      : "border-[#e1e6eb] bg-white hover:-translate-y-1 hover:shadow-md"
-                  }`}
-                  aria-pressed={activeKey === item.key}
-                >
-                  <h3 className="text-lg font-semibold text-[var(--color-brand-primary)]">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-sm text-[#425161]">{item.text}</p>
-
-                  {item.bullets && (
-                    <ul className="mt-3 space-y-2 text-sm text-[#425161]">
-                      {item.bullets.map((bullet) => (
-                        <li key={bullet} className="flex items-start gap-2">
-                          <span
-                            className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]"
-                            aria-hidden="true"
-                          />
-                          <span>{bullet}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {item.key === "recordings" && (
-                    <div className="mt-3 flex flex-wrap gap-3 text-xs font-semibold text-[var(--color-brand-primary)]">
-                      <Link
-                        className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                        href="/policies/safeguarding"
-                      >
-                        Safeguarding policy
-                      </Link>
-                      <Link
-                        className="underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                        href="/policies/consent"
-                      >
-                        Consent &amp; recordings
-                      </Link>
-                    </div>
-                  )}
-                </button>
-              ))}
-            </div>
+            <form className="mt-8 grid gap-4 sm:grid-cols-2">
+              <input
+                type="text"
+                placeholder="Course name"
+                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-[#1ec7b5]"
+              />
+              <input
+                type="email"
+                placeholder="Email address"
+                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-[#1ec7b5]"
+              />
+              <button
+                type="submit"
+                className="rounded-full bg-[var(--brand-accent)] px-6 py-3 text-sm font-semibold text-[#06201d] transition hover:brightness-95 sm:col-span-2 sm:w-fit text-white cursor-pointer"
+              >
+                Submit Now
+              </button>
+            </form>
           </div>
         </div>
       </div>

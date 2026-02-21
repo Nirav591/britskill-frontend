@@ -167,7 +167,18 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                   {course?.whoItsFor?.map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                      <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -180,25 +191,80 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                 </h2>
                 <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                   <li className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>Level: {course?.level}</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>
                       Class format: {delivery?.format ?? "Live online classes"}
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>Weekly hours: {weeklyHours}</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>Exam support: {examSupport}</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>Price: {course?.price}</span>
                   </li>
                 </ul>
@@ -215,7 +281,18 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                     key={item}
                     className="flex items-start gap-3 rounded-2xl border border-[#e1e6eb] bg-white p-4 shadow-sm"
                   >
-                    <span className="mt-1 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <p className="text-sm text-[#425161]">{item}</p>
                   </div>
                 ))}
@@ -243,7 +320,18 @@ export default async function CourseDetailsPage({ params }: PageProps) {
                       <ul className="mt-3 space-y-2">
                         {(section?.keySkills ?? []).map((skill) => (
                           <li key={skill} className="flex items-start gap-2">
-                            <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                            <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                             <span>{skill}</span>
                           </li>
                         ))}
@@ -261,7 +349,18 @@ export default async function CourseDetailsPage({ params }: PageProps) {
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                 {course?.entryRequirements?.prerequisites?.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -288,7 +387,18 @@ export default async function CourseDetailsPage({ params }: PageProps) {
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                 {course?.includes?.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                    <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                     <span>{item}</span>
                   </li>
                 ))}

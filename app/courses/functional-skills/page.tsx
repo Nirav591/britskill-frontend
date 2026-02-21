@@ -70,19 +70,63 @@ export default function FunctionalSkillsPage() {
               </h2>
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Functional Skills Maths &amp; English (Level 1 &amp; 2)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Small group live lessons and practice tasks</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Mock assessments and targeted feedback</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Lesson recordings for catch-up and revision</span>
                 </li>
               </ul>
@@ -99,7 +143,7 @@ export default function FunctionalSkillsPage() {
             <div className="mt-6 flex flex-col items-center gap-4">
               <Link
                 className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343]"
-                href="/assessment"
+                href="/book-assessment"
               >
                 Book your free assessment
               </Link>

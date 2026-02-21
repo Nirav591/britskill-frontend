@@ -155,17 +155,17 @@ const SubjectsQualificationsSection = () => {
     >
       <div className="mx-auto w-full max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h2
+          {/* <h2
             id="subjects-qualifications-title"
             className="text-3xl font-semibold text-[var(--color-brand-primary)] md:text-4xl"
           >
             GCSE, A-Level, Functional Skills &amp; ESOL Tuition
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
+          </h2> */}
+          {/* <p className="mt-4 text-base leading-relaxed text-[#425161] md:text-lg">
             BritSkill Academy specialises in exam-focused online tuition across
             key qualifications. All courses follow UK curriculum standards and
             prepare students for nationally recognised examinations.
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-12 hidden gap-8 lg:grid lg:grid-cols-[240px_1fr]">
@@ -234,10 +234,18 @@ const SubjectsQualificationsSection = () => {
             <ul className="mt-3 space-y-2 text-sm text-[#425161] md:text-base">
               {activeItem.bullets.map((bullet) => (
                 <li key={bullet} className="flex items-start gap-2">
-                  <span
-                    className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]"
-                    aria-hidden="true"
-                  />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>{bullet}</span>
                 </li>
               ))}
@@ -295,10 +303,18 @@ const SubjectsQualificationsSection = () => {
                     <ul className="mt-2 space-y-2 text-sm text-[#425161]">
                       {item.bullets.map((bullet) => (
                         <li key={bullet} className="flex items-start gap-2">
-                          <span
-                            className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]"
-                            aria-hidden="true"
-                          />
+                          <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                           <span>{bullet}</span>
                         </li>
                       ))}

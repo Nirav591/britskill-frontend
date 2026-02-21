@@ -29,15 +29,48 @@ export default function PricingPage() {
             </p>
             <ul className="mt-5 space-y-3 text-sm text-[#425161]">
               <li className="flex items-start gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                 <span>Weekly plan: £24.99 / week</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                 <span>Monthly plan: 79.99 / month</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                 <span>Unlimited plan: £199.99 / month</span>
               </li>
             </ul>
@@ -52,11 +85,33 @@ export default function PricingPage() {
             </p>
             <ul className="mt-5 space-y-3 text-sm text-[#425161]">
               <li className="flex items-start gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                 <span>Small group classes</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                 <span>From £29.99 per week</span>
               </li>
             </ul>

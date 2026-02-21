@@ -183,7 +183,7 @@ export default function HowItWorksPage() {
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] sm:w-auto"
-              href="/assessment"
+              href="/book-assessment"
             >
               Book your free assessment
             </Link>

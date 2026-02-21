@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/courses/functional-skills",
     "/courses/esol",
     "/how-it-works",
-    "/assessment",
+    "/book-assessment",
     "/get-in-touch",
     "/policies/terms",
     "/policies/privacy",

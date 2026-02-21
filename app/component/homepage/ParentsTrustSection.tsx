@@ -297,10 +297,18 @@ const ParentsTrustSection = () => {
 
                   return (
                     <li key={bullet} className="flex items-start gap-3">
-                      <span
-                        className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]"
-                        aria-hidden="true"
-                      />
+                      <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                       {content}
                     </li>
                   );
@@ -415,10 +423,18 @@ const ParentsTrustSection = () => {
                             );
                           return (
                             <li key={bullet} className="flex items-start gap-3">
-                              <span
-                                className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]"
-                                aria-hidden="true"
-                              />
+                              <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                               {content}
                             </li>
                           );

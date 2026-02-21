@@ -24,9 +24,9 @@ export default function Home() {
       <section>
         <WhoIsThisForSection />
       </section>
-      <section>
+      {/* <section>
         <HowOnlineTuitionWorks />
-      </section>
+      </section> */}
       <section>
         <SubjectsQualificationsSection />
       </section>
@@ -34,11 +34,12 @@ export default function Home() {
         <PricingPlansSection />
       </section>
       <section>
-        <TestimonialsSection />
-      </section>
-      <section>
         <ParentProgressSection />
       </section>
+      <section>
+        <TestimonialsSection />
+      </section>
+
     </div>
   );
 }

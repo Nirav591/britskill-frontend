@@ -112,7 +112,7 @@ const GetStartedCTASection = () => {
               </p>
               <Link
                 className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-brand-accent)]"
-                href="/assessment"
+                href="/book-assessment"
               >
                 Book Your Free Assessment
               </Link>

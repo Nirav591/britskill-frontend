@@ -26,19 +26,63 @@ export default function GCSEPage() {
               </h2>
               <ul className="mt-4 space-y-2 text-sm text-[#425161]">
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>GCSE Maths, English Language, and Science</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Small group classes (max 8 students)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Live lessons with recordings for revision</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-[var(--color-brand-accent)]" />
+                  <svg
+  className="mt-1 h-4 w-4 text-[var(--color-brand-accent)]"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  aria-hidden="true"
+>
+  <path d="M5 12l4 4L19 6" />
+</svg>
                   <span>Weekly progress checks and tutor feedback</span>
                 </li>
               </ul>
@@ -55,7 +99,7 @@ export default function GCSEPage() {
             <div className="mt-6 flex flex-col items-center gap-4">
               <Link
                 className="w-full rounded-full bg-[var(--color-brand-primary)] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0b2343]"
-                href="/assessment"
+                href="/book-assessment"
               >
                 Book your free assessment
               </Link>
